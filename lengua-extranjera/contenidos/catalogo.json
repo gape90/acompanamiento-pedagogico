@@ -42,7 +42,7 @@
         "id": "e3",
         "eje": "¿Qué hicieron? ¿Qué inventaron? Personajes de la historia e hitos",
         "titulo": "Biografías e inventos: el pasado simple (Past simple)",
-        "activo": true,
+        "activo": false,
         "clase": "ing-4-03",
         "desglose": [
           "Verbos regulares en pasado: escritura y pronunciación de -ed",
@@ -54,7 +54,7 @@
         "id": "e4",
         "eje": "¿Qué hicieron? ¿Qué inventaron? Personajes de la historia e hitos",
         "titulo": "Contar un hecho: el pasado continuo (Past continuous)",
-        "activo": true,
+        "activo": false,
         "clase": "ing-4-04",
         "desglose": [
           "Pasado continuo: was y were + -ing",
@@ -66,7 +66,7 @@
         "id": "e5",
         "eje": "¿Cómo cambió el mundo? Presente y pasado de distintas sociedades",
         "titulo": "Antes y ahora: hábitos del pasado (used to)",
-        "activo": true,
+        "activo": false,
         "clase": "ing-4-05",
         "desglose": [
           "Used to: hábitos y situaciones del pasado",
@@ -79,7 +79,7 @@
         "id": "e6",
         "eje": "¿Cómo cambió el mundo? Presente y pasado de distintas sociedades",
         "titulo": "Comparar lugares y personas: comparativos y superlativos",
-        "activo": true,
+        "activo": false,
         "clase": "ing-4-06",
         "desglose": [
           "Comparativos: -er, more y than",
@@ -91,7 +91,7 @@
         "id": "e7",
         "eje": "¿Cómo nos comunicamos? TIC y hábitos de comunicación en distintas culturas",
         "titulo": "Mensajes, correos y publicaciones",
-        "activo": true,
+        "activo": false,
         "clase": "ing-4-07",
         "desglose": [
           "El correo formal y el informal",
@@ -103,7 +103,7 @@
         "id": "e8",
         "eje": "¿Cómo nos comunicamos? TIC y hábitos de comunicación en distintas culturas",
         "titulo": "Experiencias con la tecnología: el presente perfecto (Present perfect)",
-        "activo": true,
+        "activo": false,
         "clase": "ing-4-08",
         "desglose": [
           "Presente perfecto: have y has + participio",

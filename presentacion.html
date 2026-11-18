@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Acompañamiento pedagógico · Infografía interactiva</title>
+<style>
+:root{color-scheme:light;--ink:#142b43;--navy:#173c60;--blue:#245f91;--pale:#edf4fa;--line:#cdddeb;font:16px/1.55 system-ui,sans-serif}
+*{box-sizing:border-box}
+body{margin:0;background:#eaf0f6;color:var(--ink)}
+main{max-width:1080px;margin:auto;padding:clamp(12px,4vw,36px) clamp(10px,3vw,28px) 36px}
+header{background:var(--navy);color:white;border-radius:16px;padding:clamp(20px,5vw,45px)}
+.meta{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;font-size:.77rem;font-weight:700;letter-spacing:.08em}
+h1{font-size:clamp(1.65rem,5.25vw,3.2rem);line-height:1.05;margin:.52em 0 .3em;text-transform:uppercase;overflow-wrap:anywhere}
+header p{margin:0;color:#e1edf9}
+.board{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:16px 0}
+section{grid-column:1/-1;border:1px solid var(--line);border-radius:12px;background:white;padding:clamp(12px,2.2vw,22px);scroll-margin-top:1rem;scroll-margin-bottom:8rem}
+section:nth-child(-n+2){grid-column:auto}
+section[hidden]{display:none}
+h2{font-size:clamp(1rem,2.3vw,1.35rem);text-transform:uppercase;line-height:1.25;display:flex;align-items:center;gap:.6em;margin:0 0 12px;color:var(--navy)}
+.num{background:var(--navy);color:white;border-radius:6px;display:inline-grid;place-items:center;min-width:2rem;height:2rem}
+.card{background:var(--pale);border:1px solid var(--line);border-radius:8px;padding:14px}
+.card h3,.sub{margin:0 0 5px;color:var(--blue);font-size:1rem}
+.sub{margin-top:14px;text-transform:uppercase}
+p{margin:0}
+small{display:block;margin-top:8px;color:#435d74}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.card+.grid,.grid+.card{margin-top:9px}
+.quote{margin:0 0 12px;font-style:italic}
+.timeline{list-style:none;padding:0;margin:0;display:grid;gap:6px}
+.timeline li{display:grid;grid-template-columns:minmax(7rem,25%) 1fr;gap:12px;align-items:center;background:var(--pale);padding:10px 13px;border-radius:6px}
+.timeline li div{color:var(--navy);font-size:.88rem}
+.stats{display:flex;gap:10px;margin:6px 0 12px}
+.stats span{flex:1;padding:8px;background:white;border-radius:7px}
+.stats b{display:block;color:var(--blue);font-size:1.7rem}
+.card li+li{margin-top:6px}
+nav{position:sticky;bottom:0;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:12px;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 -3px 20px #173c601a}
+.controls{display:flex;gap:6px;flex-wrap:wrap}
+#status{font-weight:700}
+button{font:inherit;font-weight:650;padding:7px 11px;border:1px solid var(--line);border-radius:7px;color:var(--navy);background:var(--pale);cursor:pointer}
+button:focus-visible{outline:3px solid #3778b1;outline-offset:3px}
+button:disabled{opacity:.5;cursor:default}
+#next{background:var(--navy);color:white}
+.reveal{animation:reveal .36s ease-out both}
+@keyframes reveal{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:670px){.board,.grid,.three{grid-template-columns:1fr}.timeline li{grid-template-columns:1fr;gap:4px}}
+@media(prefers-reduced-motion:reduce){.reveal{animation:none}}
+@media print{nav{display:none}section[hidden]{display:block}section{break-inside:avoid}.board{display:block}section+section{margin-top:12px}}
+
+.board{display:grid;grid-template-columns:minmax(0,1fr);align-items:start;overflow:hidden}
+.board section{grid-area:1/1;min-width:0;margin:0}
+.board section[inert]{pointer-events:none}
+nav{z-index:2}
+@media print{.board{display:block;overflow:visible}.board section{margin-bottom:12px}}
+</style>
+</head>
+<body><main>
+<header><div class="meta"><span>MINISTERIO DE EDUCACIÓN · PROPUESTA 2</span><span>BORRADOR</span></div>
+<h1>Acompañamiento pedagógico</h1>
+<p>Programa para estudiantes con espacios pendientes de acreditación, durante el receso de verano.</p></header>
+<div class="board" id="board" aria-label="Diapositivas">
+<section aria-labelledby="title-1"><h2 id="title-1"><span class="num">1</span>Fundamentación</h2><div class="card"><h3>El problema</h3><p><strong>Dificultades en la acreditación.</strong> Altos índices de ausentismo y desaprobación en las instancias de examen de febrero. En muchos casos, los estudiantes tampoco tienen acceso a las clases de consulta de febrero. A ello se suma un receso de más de un mes sin acompañamiento pedagógico para quienes adeudan espacios.</p></div></section>
+<section aria-labelledby="title-2" hidden><h2 id="title-2"><span class="num">2</span>La oportunidad</h2><div class="card"><h3>El receso como tiempo pedagógico</h3><p>El receso suele ser un obstáculo en la trayectoria cuando el estudiante interrumpe el estudio o lo continúa en soledad, sin mediación docente. El programa sostiene la enseñanza durante ese tiempo, con un modelo pedagógico distinto del aula y mediado por recursos virtuales. Se propone así como un espacio de acompañamiento pedagógico que permite convertir el receso en un tiempo de enseñanza sostenida.</p></div></section>
+<section aria-labelledby="title-3" hidden><h2 id="title-3"><span class="num">3</span>La propuesta</h2><div class="card"><h3>Qué es</h3><p>Un espacio innovador del Ministerio de Educación que acompaña a estudiantes con espacios pendientes durante el receso de verano. En ese tiempo elaboran un Trabajo Práctico que presentan y defienden en la mesa de febrero.</p></div><div class="grid"><div class="card"><h3>Para quiénes</h3><p>Estudiantes de 4.° año (EESO) y 5.° año (EETP) con espacios pendientes tras las instancias de diciembre.</p></div><div class="card"><h3>Qué logra</h3><p>Garantiza la continuidad pedagógica durante el receso, acompañando al estudiante en la recuperación de los contenidos adeudados y en la preparación de la instancia de acreditación.</p></div></div></section>
+<section aria-labelledby="title-4" hidden><h2 id="title-4"><span class="num">4</span>Principios pedagógicos</h2><p class="quote">Las instancias de apoyo son «una nueva oportunidad de enseñar de otro modo» (CFE 93/09, párr. 152).</p><div class="grid"><div class="card"><h3>1 · Recupera lo no aprobado</h3><p>El estudiante recupera los contenidos del espacio que no aprobó, a partir de los ejes que indica el docente.</p><small>Decreto 181/09, Anexo I, V.3.4. · Terigi (2007).</small></div><div class="card"><h3>2 · Aprender haciendo</h3><p>Simulaciones, actividades interactivas y recursos lúdicos permiten practicar, equivocarse y volver a intentar, con estrategias distintas a las del aula. Lo producido se integra en el Trabajo Práctico que el estudiante defiende en febrero para acreditar el espacio.</p><small>CFE 93/09, párr. 152; Decreto 181/09, Anexo I, V.3.4 y V.3.5.3. · Dewey (1938); Astolfi (1999); Chi y Wylie (2014); Freeman et al. (2014).</small></div><div class="card"><h3>3 · Retroalimentación</h3><p>Cada cápsula tiene autoevaluación y retroalimentación automática que le muestra al estudiante sus avances y dificultades antes del examen.</p><small>CFE 93/09, párr. 75 y 137. · Black y Wiliam (1998); Hattie y Timperley (2007); Anijovich y Cappelletti (2017).</small></div><div class="card"><h3>4 · Continuidad del servicio educativo</h3><p>Aunque la escuela no funcione en enero ni, en algunos casos, en parte de febrero, el estudiante sigue contando con enseñanza y acompañamiento.</p><small>CFE 84/09, párr. 103. · Cooper et al. (1996); Cooper et al. (2000).</small></div></div><div class="card"><h3>5 · Microaprendizaje</h3><p>Los contenidos se organizan en cápsulas breves, cada una orientada a un único objetivo de aprendizaje, en un formato adaptado a las nuevas generaciones.</p><small>Hug (2005); Torgerson e Iannone (2019); Salas Díaz, González Bello y Estévez Nénninger (2021).</small></div></section>
+<section aria-labelledby="title-5" hidden><h2 id="title-5"><span class="num">5</span>Quiénes lo acompañan</h2><div class="grid three"><div class="card"><h3>Tutores del Ministerio</h3><p>Dan la clase de consulta sincrónica (ver) y responden las consultas de la plataforma.</p></div><div class="card"><h3>Docentes de la escuela</h3><p>Indican los ejes, atienden las consultas presenciales de febrero e integran la comisión de la mesa.</p></div><div class="card"><h3>Equipo directivo</h3><p>Hace el seguimiento del programa.</p></div></div></section>
+<section aria-labelledby="title-6" hidden><h2 id="title-6"><span class="num">6</span>El aprendizaje desde la plataforma</h2><div class="card"><h3>Recursos disponibles en la plataforma</h3><p>Agente virtual de consultas · Recursos lúdicos · Podcast · Simulaciones · Videos breves · Autoevaluación por eje · Guías de trabajo práctico · Ejemplos prácticos · Mapas conceptuales e infografías · Agente IA (Ver) · Corrección mediada por IA (Ver).</p></div><h3 class="sub">Estructura de cada clase</h3><div class="grid"><div class="card"><h3>1 · Secuencia didáctica</h3><p>Cada clase desarrolla un contenido del diseño curricular en tres cápsulas de 30 a 40 minutos, con organizadores gráficos distintos en cada una.</p></div><div class="card"><h3>2 · Práctica con retroalimentación</h3><p>Actividades interactivas (ordenar, clasificar, relacionar), dictados en Inglés y simulaciones en Matemática y Biología, entre otras. Todas con pista ante el error y explicación ante el acierto.</p></div><div class="card"><h3>3 · Producción escrita</h3><p>Consignas con preguntas guía que el estudiante resuelve en su carpeta. Esas producciones son la base del Trabajo Práctico.</p></div><div class="card"><h3>4 · Evaluación formativa</h3><p>Juegos de repaso y autoevaluación al cierre de cada cápsula y de la clase.</p></div><div class="card"><h3>5 · Cierre de la clase</h3><p>Vocabulario específico, errores frecuentes y una propuesta que vincula los contenidos entre sí y con la realidad del estudiante.</p></div><div class="card"><h3>6 · Preparación de la defensa</h3><p>Orientaciones para la exposición oral y simulacro de preguntas sobre el Trabajo Práctico.</p></div></div></section>
+<section aria-labelledby="title-7" hidden><h2 id="title-7"><span class="num">7</span>Cómo funciona</h2><ol class="timeline"><li><div><strong>Paso 1</strong><br>Diciembre</div><p>Los estudiantes que quedan con espacios pendientes de acreditación, junto a su familia, informan a la escuela que se suman al programa.</p></li><li><div><strong>Paso 2</strong><br>Diciembre</div><p><strong>Equipo directivo.</strong> Se contacta con el docente del espacio pendiente, para que le informe los contenidos que el estudiante quedó pendiente de acreditar.</p></li><li><div><strong>Paso 3</strong><br>Diciembre</div><p><strong>Equipo directivo.</strong> Informa por escrito al estudiante los contenidos que debe recuperar y le brinda la información de acceso a las aulas.</p></li><li><div><strong>Paso 4</strong><br>Fines de diciembre, enero y parte de febrero</div><p><strong>Estudiante.</strong> Ingresa a la plataforma, selecciona los contenidos que debe recuperar y comienza el cursado.</p></li><li><div><strong>Paso 5</strong><br>Febrero</div><p><strong>Docentes de la escuela.</strong> Atienden en febrero las consultas presenciales de los estudiantes y hacen una corrección preliminar del Trabajo Práctico.</p></li><li><div><strong>Paso 6</strong><br>Mesa de examen (febrero)</div><p><strong>Estudiante.</strong> Presenta el Trabajo Práctico realizado y realiza su defensa.</p></li></ol></section>
+<section aria-labelledby="title-8" hidden><h2 id="title-8"><span class="num">8</span>Primera etapa de implementación</h2><div class="grid"><div class="card"><h3>Dónde comienza</h3><p><span class="stats"><span><b>27</b> escuelas innovadoras</span><span><b>6</b> escuelas que implementaron Aulas de Aceleración</span></span>El programa comienza en escuelas con un vínculo cercano con el Ministerio de Educación. Eso permite evaluarlo antes de extenderlo a todas las escuelas de la provincia.<br><br><strong>Espacios disponibles.</strong> En una primera instancia, la plataforma tendrá disponibles los espacios de formación general de las escuelas de educación orientada y de educación técnica. En las escuelas técnicas hay menos espacios disponibles (ver).</p></div><div class="card"><h3>Evaluación del programa</h3><p>Entre docentes, directivos y equipo del Ministerio</p><ol><li>Qué tan efectivos son los recursos.</li><li>Qué adecuaciones necesita el material propuesto.</li><li>Cuántos estudiantes incorporados al programa aprueban en las instancias de febrero, dato que se vincula directamente con la baja de la repitencia en 4.° año.</li><li>Efectividad del programa.</li></ol></div></div></section>
+</div>
+<nav aria-label="Controles de la infografía">
+<span id="status" role="status">Diapositiva 1 de 8</span>
+<div class="controls"><button type="button" id="reset" disabled>Reiniciar</button><button type="button" id="previous" disabled>Anterior</button><button type="button" id="next">Siguiente →</button></div>
+</nav>
+</main>
+<script>
+const slides = [...document.querySelectorAll('#board section')];
+const stage = document.getElementById('board');
+const status = document.getElementById('status');
+const previous = document.getElementById('previous');
+const next = document.getElementById('next');
+const reset = document.getElementById('reset');
+const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+let current = 0;
+let moving = false;
+
+function updateControls() {
+  const focused = document.activeElement;
+  previous.disabled = reset.disabled = current === 0;
+  next.disabled = current === slides.length - 1;
+  if (focused === next && next.disabled) previous.focus({preventScroll:true});
+  if ((focused === previous || focused === reset) && current === 0) next.focus({preventScroll:true});
+  status.textContent = 'Diapositiva ' + (current + 1) + ' de ' + slides.length;
+}
+
+async function show(index) {
+  if (moving || index < 0 || index >= slides.length || index === current) return;
+  moving = true;
+  const direction = Math.sign(index - current);
+  const outgoing = slides[current];
+  const incoming = slides[index];
+  const oldHeight = stage.getBoundingClientRect().height;
+  current = index;
+  outgoing.inert = true;
+  incoming.hidden = false;
+  incoming.inert = true;
+  updateControls();
+  const top = stage.getBoundingClientRect().top + window.scrollY - 14;
+  if (stage.getBoundingClientRect().top < 0) {
+    window.scrollTo({top:Math.max(0, top), behavior:reducedMotion.matches ? 'instant' : 'smooth'});
+  }
+
+  try {
+    if (!reducedMotion.matches && typeof incoming.animate === 'function') {
+      const options = {duration:750, easing:'cubic-bezier(.24,.67,.29,1)', fill:'both'};
+      const animations = [
+        outgoing.animate([
+          {transform:'translateX(0)', opacity:1},
+          {offset:.64, opacity:0},
+          {transform:`translateX(${-direction * 105}%)`, opacity:0}
+        ], options),
+        incoming.animate([
+          {transform:`translateX(${direction * 105}%)`, opacity:0},
+          {offset:.20, opacity:0},
+          {transform:'translateX(0)', opacity:1}
+        ], options),
+        stage.animate([
+          {height:oldHeight + 'px'},
+          {height:incoming.getBoundingClientRect().height + 'px'}
+        ], options)
+      ];
+      try {
+        await Promise.allSettled(animations.map(animation => animation.finished));
+      } finally {
+        outgoing.hidden = true;
+        animations.forEach(animation => animation.cancel());
+      }
+    }
+  } finally {
+    outgoing.hidden = true;
+    outgoing.inert = false;
+    incoming.inert = false;
+    moving = false;
+  }
+}
+
+next.addEventListener('click', () => show(current + 1));
+previous.addEventListener('click', () => show(current - 1));
+reset.addEventListener('click', () => show(0));
+</script></body></html>

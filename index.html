@@ -40,8 +40,23 @@ main{max-width:820px;margin:-20px auto 40px;padding:0 16px;position:relative}
 @keyframes baja{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
 @keyframes onda{to{transform:scale(2.6);opacity:0}}
 @keyframes sale{to{transform:translateX(14px);opacity:0}}
+.presenta{display:flex;align-items:center;justify-content:center;gap:12px;width:100%;margin:0 0 18px;padding:16px 20px;border:0;border-radius:22px;cursor:pointer;font:inherit;font-weight:800;font-size:1.08rem;color:#fff;
+  background:linear-gradient(135deg,#173c60,#4B4FA3);box-shadow:0 12px 28px rgba(23,60,96,.28);opacity:0;animation:entra .45s cubic-bezier(.2,.8,.3,1.2) .1s forwards;transition:transform .2s ease,box-shadow .2s ease;-webkit-tap-highlight-color:transparent}
+.presenta:hover,.presenta:focus-visible{transform:translateY(-3px);box-shadow:0 18px 36px rgba(23,60,96,.36);outline:none}
+.presenta:focus-visible{outline:3px solid #F0731E;outline-offset:3px}
+.presenta:active{transform:scale(.98)}
+.presenta-ico{display:grid;place-items:center;width:40px;height:40px;border-radius:12px;background:rgba(255,255,255,.16)}
+.presenta-ico svg{width:24px;height:24px}
+dialog#pres{width:min(1120px,96vw);height:min(92vh,900px);max-width:none;max-height:none;padding:0;border:0;border-radius:18px;overflow:hidden;background:#eaf0f6;box-shadow:0 30px 80px rgba(0,0,0,.35)}
+dialog#pres[open]{animation:abre .3s cubic-bezier(.2,.8,.3,1) both}
+dialog#pres::backdrop{background:rgba(20,26,60,.6);backdrop-filter:blur(3px)}
+dialog#pres iframe{width:100%;height:100%;border:0;display:block}
+.cerrar{position:absolute;top:10px;right:10px;z-index:2;width:42px;height:42px;border-radius:50%;border:0;background:#fff;color:#173c60;font-size:1.1rem;font-weight:800;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.2)}
+.cerrar:focus-visible{outline:3px solid #F0731E;outline-offset:2px}
+@keyframes abre{from{opacity:0;transform:translateY(16px) scale(.97)}to{opacity:1;transform:none}}
+@media (max-width:600px){dialog#pres{width:100vw;height:100dvh;border-radius:0}}
 @media (max-width:420px){.grilla{grid-template-columns:1fr}.icono{width:52px;height:52px}.icono svg{width:30px;height:30px}}
-@media (prefers-reduced-motion:reduce){*,*::before{animation:none!important;transition:none!important}.aula,.nota{opacity:1}}
+@media (prefers-reduced-motion:reduce){*,*::before{animation:none!important;transition:none!important}.aula,.nota,.presenta{opacity:1}}
 </style>
 </head>
 <body>
@@ -50,40 +65,48 @@ main{max-width:820px;margin:-20px auto 40px;padding:0 16px;position:relative}
   <p>4.º año · Elegí un aula</p>
 </header>
 <main>
+  <button type="button" class="presenta" id="abrir-pres" aria-haspopup="dialog">
+    <span class="presenta-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 8l4 2-4 2z" fill="currentColor"/><path d="M12 16v4M8 20h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>
+    <span>Presentación del proyecto</span>
+  </button>
   <nav class="grilla" aria-label="Aulas">
-    <a class="aula" href="biologia/index.html?cambiar=1&inicio=1" style="--c:#1F9D72;--i:0">
+    <a class="aula" href="biologia/index.html?cambiar=1&inicio=1" style="--c:#1F9D72;--i:1">
       <span class="icono"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="15" fill="none" stroke="currentColor" stroke-width="3"/><ellipse cx="20" cy="21" rx="6" ry="5" fill="currentColor" opacity=".9"/><circle cx="31" cy="30" r="2.5" fill="currentColor"/><circle cx="29" cy="15" r="1.8" fill="currentColor"/></svg></span>
-      <span class="texto"><span class="nombre">Biología</span><span class="cant">7 clases</span></span>
+      <span class="texto"><span class="nombre">Biología</span><span class="cant">2 de 7 clases disponibles</span></span>
       <span class="ir" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
     </a>
-    <a class="aula" href="historia/index.html?cambiar=1&inicio=1" style="--c:#B8662A;--i:1">
-      <span class="icono"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 12h20v6H14zM16 18v18M24 18v18M32 18v18M12 36h24v4H12z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/></svg></span>
-      <span class="texto"><span class="nombre">Historia</span><span class="cant">9 clases</span></span>
-      <span class="ir" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-    </a>
-    <a class="aula" href="geografia/index.html?cambiar=1&inicio=1" style="--c:#2C7DB5;--i:2">
-      <span class="icono"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="15" fill="none" stroke="currentColor" stroke-width="3"/><path d="M9 24h30M24 9c-6 7-6 23 0 30M24 9c6 7 6 23 0 30" fill="none" stroke="currentColor" stroke-width="2.5"/></svg></span>
-      <span class="texto"><span class="nombre">Geografía</span><span class="cant">12 clases</span></span>
-      <span class="ir" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-    </a>
-    <a class="aula" href="matematica/index.html?cambiar=1&inicio=1" style="--c:#4B4FA3;--i:3">
-      <span class="icono"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 16h10M19 11v10M28 16h8M14 32l8-0M14 32h0M30 28l6 8M36 28l-6 8M14 30h10M14 34h10" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></span>
-      <span class="texto"><span class="nombre">Matemática</span><span class="cant">10 clases</span></span>
-      <span class="ir" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-    </a>
-    <a class="aula" href="lengua/index.html?cambiar=1&inicio=1" style="--c:#B83A7A;--i:4">
-      <span class="icono"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M10 14c5-2 10-2 14 1v22c-4-3-9-3-14-1zM38 14c-5-2-10-2-14 1v22c4-3 9-3 14-1z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/></svg></span>
-      <span class="texto"><span class="nombre">Lengua y Literatura</span><span class="cant">13 clases</span></span>
-      <span class="ir" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-    </a>
-    <a class="aula" href="lengua-extranjera/index.html?cambiar=1&inicio=1" style="--c:#E5194F;--i:5">
+    <a class="aula" href="lengua-extranjera/index.html?cambiar=1&inicio=1" style="--c:#E5194F;--i:2">
       <span class="icono"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M10 12h20a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H18l-6 5v-5h-2a4 4 0 0 1-4-4V16a4 4 0 0 1 4-4z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><text x="20" y="25.5" text-anchor="middle" font-size="9" font-weight="800" fill="currentColor" font-family="Plus Jakarta Sans,sans-serif">EN</text></svg></span>
-      <span class="texto"><span class="nombre">Lengua Extranjera Inglés</span><span class="cant">8 clases</span></span>
+      <span class="texto"><span class="nombre">Lengua Extranjera Inglés</span><span class="cant">2 de 8 clases disponibles</span></span>
+      <span class="ir" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    </a>
+    <a class="aula" href="historia/index.html?cambiar=1&inicio=1" style="--c:#B8662A;--i:3">
+      <span class="icono"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 12h20v6H14zM16 18v18M24 18v18M32 18v18M12 36h24v4H12z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/></svg></span>
+      <span class="texto"><span class="nombre">Historia</span><span class="cant">2 de 9 clases disponibles</span></span>
+      <span class="ir" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    </a>
+    <a class="aula" href="geografia/index.html?cambiar=1&inicio=1" style="--c:#2C7DB5;--i:4">
+      <span class="icono"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="15" fill="none" stroke="currentColor" stroke-width="3"/><path d="M9 24h30M24 9c-6 7-6 23 0 30M24 9c6 7 6 23 0 30" fill="none" stroke="currentColor" stroke-width="2.5"/></svg></span>
+      <span class="texto"><span class="nombre">Geografía</span><span class="cant">2 de 12 clases disponibles</span></span>
+      <span class="ir" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    </a>
+    <a class="aula" href="matematica/index.html?cambiar=1&inicio=1" style="--c:#4B4FA3;--i:5">
+      <span class="icono"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 16h10M19 11v10M28 16h8M14 32l8-0M14 32h0M30 28l6 8M36 28l-6 8M14 30h10M14 34h10" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></span>
+      <span class="texto"><span class="nombre">Matemática</span><span class="cant">2 de 10 clases disponibles</span></span>
+      <span class="ir" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    </a>
+    <a class="aula" href="lengua/index.html?cambiar=1&inicio=1" style="--c:#B83A7A;--i:6">
+      <span class="icono"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M10 14c5-2 10-2 14 1v22c-4-3-9-3-14-1zM38 14c-5-2-10-2-14 1v22c4-3 9-3 14-1z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/></svg></span>
+      <span class="texto"><span class="nombre">Lengua y Literatura</span><span class="cant">2 de 13 clases disponibles</span></span>
       <span class="ir" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
     </a>
   </nav>
   <p class="nota">Versión de prueba: en todas las aulas se puede avanzar sin resolver las actividades.</p>
 </main>
+<dialog id="pres" aria-label="Presentación del proyecto">
+  <button type="button" class="cerrar" id="cerrar-pres" aria-label="Cerrar la presentación">✕</button>
+  <iframe title="Presentación del proyecto" data-src="presentacion.html"></iframe>
+</dialog>
 <script>
 const quieto = matchMedia('(prefers-reduced-motion: reduce)').matches;
 document.querySelectorAll('.aula').forEach(a => a.addEventListener('click', ev => {
@@ -95,6 +118,12 @@ document.querySelectorAll('.aula').forEach(a => a.addEventListener('click', ev =
   setTimeout(() => { location.href = a.href; }, 380);
 }));
 addEventListener('pageshow', e => { if (e.persisted) document.querySelectorAll('.elegida').forEach(a => a.classList.remove('elegida')); });
+const pres = document.getElementById('pres'), marco = pres.querySelector('iframe');
+document.getElementById('abrir-pres').addEventListener('click', () => { if (!marco.src) marco.src = marco.dataset.src; pres.showModal(); });
+document.getElementById('cerrar-pres').addEventListener('click', () => pres.close());
+pres.addEventListener('click', e => { if (e.target === pres) pres.close(); });
+marco.addEventListener('load', () => { try { marco.contentWindow.addEventListener('keydown', e => { if (e.key === 'Escape') pres.close(); }); } catch (_) {} });
+pres.addEventListener('close', () => document.getElementById('abrir-pres').focus());
 </script>
 </body>
 </html>
