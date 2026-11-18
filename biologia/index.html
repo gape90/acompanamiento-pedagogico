@@ -40,7 +40,7 @@ const e = leer();
 if (e.seleccion.length && !new URLSearchParams(location.search).has('cambiar')) location.replace('recorrido.html');
 
 function pintarContenidos() {
-  const lista = cat.contenidos[ESPACIO] || [];
+  const lista = (cat.contenidos[ESPACIO] || []).filter(c => !c.oculto);
   e.seleccion = e.seleccion.filter(id => lista.some(c => c.id === id && c.activo));
   const ejes = [...new Set(lista.map(c => c.eje))];
   $('contenidos').innerHTML = ejes.map(eje => `<div class="eje"><h3>${esc(eje)}</h3>` +
@@ -65,7 +65,7 @@ $('contenidos').addEventListener('change', ev => {
   i.closest('.contenido').classList.toggle('sel', i.checked);
   validar();
 });
-$('todos').onclick = () => { e.seleccion = (cat.contenidos[ESPACIO] || []).filter(c => c.activo).map(c => c.id); pintarContenidos(); };
+$('todos').onclick = () => { e.seleccion = (cat.contenidos[ESPACIO] || []).filter(c => c.activo && !c.oculto).map(c => c.id); pintarContenidos(); };
 $('ninguno').onclick = () => { e.seleccion = []; pintarContenidos(); };
 $('empezar').onclick = () => {
   actualizar(x => { x.espacio = ESPACIO; x.seleccion = e.seleccion; });

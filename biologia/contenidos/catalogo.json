@@ -24,7 +24,8 @@
           "Los organismos como sistemas abiertos: medio interno y homeostasis",
           "Metabolismo: anabolismo y catabolismo",
           "Glucólisis, respiración celular y biosíntesis de proteínas"
-        ]
+        ],
+        "oculto": true
       },
       {
         "id": "b2",
@@ -37,7 +38,8 @@
           "Clasificación de los nutrientes según su función",
           "Diferencia entre nutrición y alimentación",
           "Desórdenes alimentarios (abordaje conceptual)"
-        ]
+        ],
+        "oculto": true
       },
       {
         "id": "b3",
@@ -49,8 +51,7 @@
           "Anatomía y fisiología del sistema digestivo",
           "Anatomía y fisiología del sistema respiratorio",
           "Funcionamiento normal y patológico"
-        ],
-        "en_construccion": true
+        ]
       },
       {
         "id": "b4",
@@ -63,8 +64,7 @@
           "Anatomía y fisiología del sistema excretor",
           "Integración de los cuatro sistemas de nutrición y homeostasis",
           "Funcionamiento normal y patológico"
-        ],
-        "en_construccion": true
+        ]
       },
       {
         "id": "b5",
@@ -77,8 +77,7 @@
           "Constitución química, celular y tisular",
           "Movimiento y locomoción",
           "Comparación entre seres vivos: adaptaciones y conexiones evolutivas"
-        ],
-        "en_construccion": true
+        ]
       },
       {
         "id": "b6",
