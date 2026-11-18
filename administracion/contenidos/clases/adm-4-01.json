@@ -1,0 +1,1237 @@
+{
+ "id": "adm-4-01",
+ "espacio": "administracion",
+ "eje": "Habilidades gerenciales necesarias para la administración estratégica",
+ "titulo": "Liderazgo y cultura organizacional",
+ "intro": "Quien lidera un equipo influye en lo que el grupo hace y en cómo se siente. En esta clase vas a ver qué es liderar, qué estilos de liderazgo hay y cómo se forma la cultura de una organización.",
+ "objetivos": [
+  "Diferenciar la autoridad del liderazgo y reconocer los estilos autoritario, democrático y liberal.",
+  "Elegir el estilo de liderazgo que conviene según lo que sabe y siente cada persona en una tarea.",
+  "Explicar los tres niveles de la cultura organizacional y qué tiene que ver quien lidera con el sentido de pertenencia."
+ ],
+ "tp_aporte": "Para tu trabajo práctico ya tenés: la diferencia entre autoridad y liderazgo, los tres estilos del estudio de Lewin, los cuatro estilos del liderazgo situacional y los tres niveles de la cultura organizacional, con ejemplos de equipos y organizaciones.",
+ "capsulas": [
+  {
+   "id": "c1",
+   "titulo": "Liderar no es lo mismo que mandar",
+   "tiempo": "20 a 30 min",
+   "bloques": [
+    {
+     "t": "texto",
+     "titulo": "Tener un cargo y liderar no es lo mismo",
+     "texto": "En una organización, algunas personas tienen **autoridad**: el cargo les da derecho a tomar ciertas decisiones y a pedir que se cumplan. Quien capitanea un equipo puede armar la lista de titulares porque el club la nombró en ese puesto.\n\nEl **liderazgo** es otra cosa. Es la capacidad de **influir** en otras personas para que quieran trabajar por un objetivo común. El diseño curricular de esta materia lo explica así: liderar es lograr que lo que necesita la organización coincida con lo que desean las personas que la forman."
+    },
+    {
+     "t": "dupla",
+     "items": [
+      {
+       "titulo": "Autoridad",
+       "sub": "viene del cargo",
+       "color": "#F0731E",
+       "img": "img/clases/adm-4-01-autoridad.webp",
+       "alt": "La capitana de un equipo de e-sports, de pie, señala la estrategia en una pantalla. Dos integrantes la escuchan sentados."
+      },
+      {
+       "titulo": "Liderazgo",
+       "sub": "viene de la influencia",
+       "color": "#5B2A86",
+       "img": "img/clases/adm-4-01-liderazgo.webp",
+       "alt": "Cuatro integrantes de un equipo de e-sports conversan en el club. Uno explica una idea y el resto escucha con interés; otro se suma con la suya."
+      }
+     ],
+     "epigrafe": "Ilustraciones elaboradas para esta clase."
+    },
+    {
+     "t": "destacado",
+     "titulo": "Para recordar",
+     "texto": "La **autoridad** viene del cargo. El **liderazgo** viene de la influencia: es lograr que las personas quieran ir hacia el objetivo de la organización. Una persona puede tener una cosa sin la otra: alguien con cargo al que el equipo sigue de mala gana, o alguien sin cargo al que todos escuchan."
+    },
+    {
+     "t": "texto",
+     "titulo": "Tres maneras de liderar",
+     "texto": "Un **estilo de liderazgo** es la manera habitual en que alguien toma decisiones, da indicaciones y se relaciona con su equipo.\n\nEn 1939, el psicólogo **Kurt Lewin** y sus colegas Ronald Lippitt y Ralph White, en la Universidad de Iowa (Estados Unidos), hicieron un estudio que todavía se enseña. Armaron grupos de chicos de unos 10 años que se juntaban a hacer manualidades. A cada grupo lo coordinaba una persona adulta con un estilo distinto: **autoritario**, **democrático** o **liberal**. En algunos momentos, quien coordinaba salía de la sala, y observaban qué hacía el grupo sin esa persona."
+    },
+    {
+     "t": "fichas",
+     "titulo": "Los tres estilos del estudio de Lewin",
+     "rotulos": [
+      "Quién decide",
+      "Cómo se dirige al grupo",
+      "Qué observaron"
+     ],
+     "items": [
+      {
+       "titulo": "Autoritario (o autocrático)",
+       "img": "img/clases/adm-4-01-autoritario.webp",
+       "filas": [
+        "Quien coordina decide sin consultar.",
+        "Da órdenes y controla que se cumplan.",
+        "El grupo producía mientras quien coordinaba estaba presente. Cuando salía, el trabajo caía."
+       ]
+      },
+      {
+       "titulo": "Democrático (o participativo)",
+       "img": "img/clases/adm-4-01-democratico.webp",
+       "filas": [
+        "El grupo participa y quien coordina orienta.",
+        "Propone opciones, pregunta y explica el porqué.",
+        "Fue el estilo que los chicos más valoraron, y el grupo seguía trabajando aunque quien coordinaba saliera."
+       ]
+      },
+      {
+       "titulo": "Liberal (o laissez-faire)",
+       "img": "img/clases/adm-4-01-liberal.webp",
+       "filas": [
+        "Cada persona decide por su cuenta.",
+        "Casi no interviene ni da indicaciones.",
+        "Fue el grupo que menos produjo."
+       ]
+      }
+     ]
+    },
+    {
+     "t": "experimento",
+     "consigna": "Recreá el estudio. Primero mirá cómo trabaja cada grupo con quien lo coordina en la sala. Después vas a tener que anticipar qué pasa cuando esa persona sale.",
+     "aviso": "Las barras son ilustrativas: muestran lo que describe el estudio, no cifras.",
+     "grupos": [
+      {
+       "nombre": "Autoritario",
+       "img": {
+        "trabajando": "img/clases/adm-4-01-exp-trabajando.webp",
+        "sin_trabajar": "img/clases/adm-4-01-exp-sin-trabajar.webp",
+        "coord": "img/clases/adm-4-01-exp-coord-autoritario.webp"
+       },
+       "color": "#F0731E",
+       "presente": 0.88,
+       "sin": 0.22,
+       "nota_sin": "Sin quien daba las órdenes, el grupo casi deja de trabajar."
+      },
+      {
+       "nombre": "Democrático",
+       "img": {
+        "trabajando": "img/clases/adm-4-01-exp-trabajando.webp",
+        "sin_trabajar": "img/clases/adm-4-01-exp-sin-trabajar.webp",
+        "coord": "img/clases/adm-4-01-exp-coord-democratico.webp"
+       },
+       "color": "#5B2A86",
+       "presente": 0.78,
+       "sin": 0.74,
+       "nota_sin": "El grupo sigue con lo que había decidido junto con quien coordinaba."
+      },
+      {
+       "nombre": "Liberal",
+       "img": {
+        "trabajando": "img/clases/adm-4-01-exp-trabajando.webp",
+        "sin_trabajar": "img/clases/adm-4-01-exp-sin-trabajar.webp",
+        "coord": "img/clases/adm-4-01-exp-coord-liberal.webp"
+       },
+       "color": "#4B4FA3",
+       "presente": 0.3,
+       "sin": 0.3,
+       "nota_sin": "En este grupo, quien coordinaba casi no intervenía: ya se trabajaba poco con esa persona en la sala."
+      }
+     ],
+     "pregunta": "Ahora quien coordina sale de la sala. ¿En qué grupo se sigue trabajando casi igual?",
+     "correcta": 1,
+     "explicacion": "En el grupo democrático las decisiones se habían tomado entre todos, así que el trabajo no dependía de que alguien mirara. En el autoritario, todo dependía de las órdenes de quien coordinaba.",
+     "pista": "Volvé a la fila Qué observaron de las fichas: ¿qué grupo seguía trabajando aunque quien coordinaba saliera?"
+    },
+    {
+     "t": "ejemplo",
+     "titulo": "Pensalo así: el GPS y el mapa",
+     "texto": "Imaginá tres formas de llegar a un lugar que no conocés. Con un GPS que te dice cada giro, llegás, pero si se corta la señal quedás perdido. Con alguien que te muestra el mapa y te pregunta por dónde irías, llegás y además aprendés el camino. Con un mapa en blanco y un \"arreglate\", quizás llegues, o quizás no. Los tres estilos funcionan un poco así."
+    },
+    {
+     "t": "clasificar",
+     "consigna": "🗣️ ¿Quién lo diría? Estas frases son inventadas: las podría decir quien capitanea un equipo de e-sports. Arrastrá cada una al estilo que le corresponde.",
+     "categorias": [
+      "Autoritario",
+      "Democrático",
+      "Liberal"
+     ],
+     "items": [
+      {
+       "texto": "Esta fecha juegan los que yo diga. No hay nada que discutir.",
+       "cat": "Autoritario"
+      },
+      {
+       "texto": "Si no siguen mi estrategia al pie de la letra, quedan afuera.",
+       "cat": "Autoritario"
+      },
+      {
+       "texto": "Traje dos estrategias. Votemos cuál usamos y les explico por qué propongo cada una.",
+       "cat": "Democrático"
+      },
+      {
+       "texto": "Antes de decidir quién juega, quiero escuchar qué piensa cada uno.",
+       "cat": "Democrático"
+      },
+      {
+       "texto": "Entrenen cuando quieran. Ustedes saben lo que hacen.",
+       "cat": "Liberal"
+      },
+      {
+       "texto": "La estrategia arréglenla entre ustedes. Yo no me meto.",
+       "cat": "Liberal"
+      }
+     ],
+     "pista": "Fijate quién toma la decisión en cada frase. Si no te acordás, volvé a la fila Quién decide de las fichas.",
+     "explicacion": "En el estilo autoritario decide quien lidera, sin consultar. En el democrático, el grupo participa y quien lidera explica sus propuestas. En el liberal, quien lidera no interviene y cada persona hace lo que le parece."
+    },
+    {
+     "t": "dato",
+     "titulo": "Un estudio con sus límites",
+     "texto": "El estudio de Lewin se hizo con grupos chicos de chicos, no con empresas. Por eso no dice que un estilo sea siempre el mejor. Lo que dejó es una idea que se sigue usando: **la manera de liderar cambia lo que hace el grupo**. En la parte 2 vas a ver un modelo más reciente, que propone elegir el estilo según cada persona y cada tarea."
+    },
+    {
+     "t": "vf",
+     "afirmaciones": [
+      {
+       "texto": "Para liderar un equipo hace falta tener un cargo.",
+       "v": false,
+       "explicacion": "Se puede influir sin tener un puesto: es lo que hace el compañero al que todos escuchan cuando el partido se complica."
+      },
+      {
+       "texto": "Quien tiene autoridad puede tomar decisiones por su cargo, aunque no logre que el equipo quiera seguirlo.",
+       "v": true,
+       "explicacion": "La autoridad viene del cargo. El liderazgo, de la influencia. No siempre van juntos."
+      },
+      {
+       "texto": "En el estudio de Lewin, el grupo autoritario seguía trabajando igual cuando quien coordinaba salía.",
+       "v": false,
+       "explicacion": "Producía mientras quien coordinaba estaba presente. Cuando salía, el trabajo caía."
+      },
+      {
+       "texto": "El estudio de Lewin demostró que el estilo autoritario es el mejor en cualquier organización.",
+       "v": false,
+       "explicacion": "El estudio se hizo con grupos chicos de chicos y no permite decir que un estilo sea el mejor siempre."
+      }
+     ]
+    },
+    {
+     "t": "revelar",
+     "pregunta": "Pensá: ¿hay momentos en los que conviene que quien lidera decida sin consultar? ¿Cuáles?",
+     "respuesta": "Sí. Cuando hay muy poco tiempo (quedan segundos para cerrar la inscripción) o cuando el grupo todavía no sabe nada de la tarea, puede convenir que quien lidera decida y explique después. El problema aparece cuando decidir sin consultar se vuelve la única forma de conducir: el equipo deja de pensar por su cuenta. En la parte 2 vas a ver justamente cómo elegir el estilo según la situación."
+    }
+   ],
+   "carpeta": {
+    "titulo": "Anotá en tu carpeta",
+    "instruccion": "Explicá la diferencia entre autoridad y liderazgo, y describí los tres estilos del estudio de Lewin con un ejemplo de un equipo inventado por vos.",
+    "guia": [
+     "¿Qué es la autoridad y de dónde viene?",
+     "¿Qué es el liderazgo? ¿Por qué se dice que es influir?",
+     "¿Cómo decide y cómo se dirige al grupo cada uno de los tres estilos?",
+     "¿Qué observaron Lewin y sus colegas en cada grupo?",
+     "En tu equipo inventado, ¿qué diría una persona de cada estilo?"
+    ]
+   },
+   "juegos": [
+    {
+     "tipo": "vf",
+     "texto": "La autoridad viene del cargo que ocupa una persona.",
+     "respuesta": true,
+     "explicacion": "El puesto le da derecho a tomar ciertas decisiones."
+    },
+    {
+     "tipo": "vf",
+     "texto": "Liderar es lograr que las personas quieran trabajar por un objetivo común.",
+     "respuesta": true,
+     "explicacion": "Por eso se dice que el liderazgo es influencia."
+    },
+    {
+     "tipo": "vf",
+     "texto": "Una persona sin cargo no puede liderar.",
+     "respuesta": false,
+     "explicacion": "Puede influir en el grupo aunque no tenga un puesto."
+    },
+    {
+     "tipo": "vf",
+     "texto": "En el estilo autoritario, el grupo participa de las decisiones.",
+     "respuesta": false,
+     "explicacion": "En el autoritario quien lidera decide sin consultar."
+    },
+    {
+     "tipo": "vf",
+     "texto": "El estudio de Lewin se hizo en 1939.",
+     "respuesta": true,
+     "explicacion": "Lo hicieron Kurt Lewin, Ronald Lippitt y Ralph White en la Universidad de Iowa."
+    },
+    {
+     "tipo": "vf",
+     "texto": "El grupo con líder liberal fue el que más produjo.",
+     "respuesta": false,
+     "explicacion": "Fue el que menos produjo: sin indicaciones, cada persona hacía lo que quería."
+    },
+    {
+     "tipo": "mc",
+     "pregunta": "¿Qué es el liderazgo?",
+     "opciones": [
+      "La capacidad de influir para que el equipo quiera ir hacia un objetivo",
+      "El derecho a tomar decisiones que da un cargo dentro de la organización",
+      "La obligación de controlar que cada persona cumpla con su horario",
+      "La manera de premiar a quien obtiene los mejores resultados del equipo"
+     ],
+     "correcta": 0,
+     "explicacion": "El derecho que da el cargo es la autoridad. El liderazgo es influencia."
+    },
+    {
+     "tipo": "mc",
+     "pregunta": "¿Qué estilo de liderazgo propone opciones, pregunta y explica el porqué?",
+     "opciones": [
+      "El liberal",
+      "El democrático",
+      "El de quien tiene más antigüedad",
+      "El autoritario"
+     ],
+     "correcta": 1,
+     "explicacion": "En el estilo democrático el grupo participa y quien lidera orienta."
+    },
+    {
+     "tipo": "mc",
+     "pregunta": "¿Qué otro nombre recibe el estilo liberal?",
+     "opciones": [
+      "Situacional",
+      "Laissez-faire",
+      "Autocrático",
+      "Participativo"
+     ],
+     "correcta": 1,
+     "explicacion": "Laissez-faire significa \"dejar hacer\" en francés."
+    },
+    {
+     "tipo": "mc",
+     "pregunta": "¿Qué estilo fue el más valorado por los chicos del estudio de Lewin?",
+     "opciones": [
+      "Ninguno, porque los tres gustaron igual",
+      "El autoritario, porque había reglas claras",
+      "El democrático, porque podían participar",
+      "El liberal, porque nadie les indicaba nada"
+     ],
+     "correcta": 2,
+     "explicacion": "Los chicos valoraron más el grupo donde podían opinar y decidir con quien los coordinaba."
+    },
+    {
+     "tipo": "mc",
+     "pregunta": "Una capitana arma la lista de titulares porque el club la nombró en el puesto. ¿Qué está usando?",
+     "opciones": [
+      "Su liderazgo",
+      "Su autoridad",
+      "Un estilo liberal",
+      "Un estilo democrático"
+     ],
+     "correcta": 1,
+     "explicacion": "Lo puede hacer por su cargo: eso es autoridad."
+    },
+    {
+     "tipo": "mc",
+     "pregunta": "¿Por qué el estudio de Lewin no prueba que un estilo sea siempre el mejor?",
+     "opciones": [
+      "Porque en el estudio los tres estilos dieron exactamente igual",
+      "Porque sus autores no llegaron a publicar ningún resultado",
+      "Porque solo se observó el estilo autoritario durante el estudio",
+      "Porque se hizo con grupos chicos de chicos, no con organizaciones"
+     ],
+     "correcta": 3,
+     "explicacion": "Muestra que el estilo cambia lo que hace el grupo, pero no alcanza para decir cuál conviene siempre."
+    }
+   ],
+   "palabras": [
+    {
+     "palabra": "AUTORIDAD",
+     "pista": "Derecho a tomar decisiones que da un cargo."
+    },
+    {
+     "palabra": "LIDERAZGO",
+     "pista": "Capacidad de influir para que el equipo quiera ir hacia un objetivo."
+    },
+    {
+     "palabra": "INFLUIR",
+     "pista": "Lograr que otras personas quieran hacer algo, sin obligarlas."
+    },
+    {
+     "palabra": "AUTORITARIO",
+     "pista": "Estilo en el que quien lidera decide sin consultar y da órdenes."
+    },
+    {
+     "palabra": "DEMOCRÁTICO",
+     "pista": "Estilo en el que el grupo participa de las decisiones."
+    },
+    {
+     "palabra": "LIBERAL",
+     "pista": "Estilo en el que quien lidera casi no interviene."
+    }
+   ],
+   "autoevaluacion": [
+    {
+     "tipo": "mc",
+     "pregunta": "¿En qué se diferencian la autoridad y el liderazgo?",
+     "opciones": [
+      "La autoridad y el liderazgo son dos nombres de la misma idea",
+      "La autoridad es de las empresas y el liderazgo, de los clubes",
+      "La autoridad viene del cargo y el liderazgo, de la influencia",
+      "La autoridad viene de la influencia y el liderazgo, del cargo"
+     ],
+     "correcta": 2,
+     "explicacion": "Se puede tener el cargo sin lograr influir, y se puede influir sin tener un cargo."
+    },
+    {
+     "tipo": "mc",
+     "pregunta": "Un capitán dice: \"Entrenen cuando quieran, yo no me meto\". ¿Qué estilo muestra?",
+     "opciones": [
+      "Participativo",
+      "Autoritario",
+      "Democrático",
+      "Liberal"
+     ],
+     "correcta": 3,
+     "explicacion": "Quien lidera no interviene y deja que cada persona decida."
+    },
+    {
+     "tipo": "mc",
+     "pregunta": "¿Qué observaron Lewin y sus colegas en el grupo con líder autoritario?",
+     "opciones": [
+      "Que el grupo producía mientras quien lideraba estaba presente",
+      "Que el grupo fue el que menos produjo en todo el estudio",
+      "Que fue el grupo que los chicos valoraron más que los otros",
+      "Que el grupo decidía sus tareas sin necesidad de un líder"
+     ],
+     "correcta": 0,
+     "explicacion": "El trabajo dependía de que quien lideraba estuviera mirando."
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "titulo": "Cada persona necesita algo distinto: el liderazgo situacional",
+   "tiempo": "20 a 30 min",
+   "bloques": [
+    {
+     "t": "texto",
+     "titulo": "Dirigir y apoyar",
+     "texto": "A fines de los años 60, **Paul Hersey** y **Ken Blanchard** propusieron un modelo que hoy se conoce como **liderazgo situacional**. Su idea central: no hay un estilo que sirva para todo; quien lidera tiene que adaptarse a cada persona y a cada tarea.\n\nPara eso combina dos tipos de comportamiento. **Dirigir** es decir qué hay que hacer, cómo, cuándo y con qué, y controlar que salga bien. **Apoyar** es escuchar, animar, explicar el porqué y hacer participar a la persona en las decisiones. Según cuánto dirige y cuánto apoya, quedan cuatro estilos."
+    },
+    {
+     "t": "imagen",
+     "_imagen": true,
+     "tipo": "grafico",
+     "src": "img/clases/adm-4-01-plano.svg",
+     "src_movil": "img/clases/adm-4-01-plano-movil.svg",
+     "alt": "Plano con dos ejes. El horizontal indica cuánto dirige quien lidera y el vertical, cuánto apoya. Dirigir: mucha dirección y poco apoyo. Entrenar: mucha dirección y mucho apoyo. Apoyar: poca dirección y mucho apoyo. Delegar: poca dirección y poco apoyo.",
+     "epigrafe": "Esquema elaborado para esta clase, a partir del modelo de liderazgo situacional de Hersey y Blanchard.",
+     "animacion": "svg"
+    },
+    {
+     "t": "texto",
+     "titulo": "Cómo saber qué necesita cada persona",
+     "texto": "Para elegir el estilo, quien lidera mira el **nivel de desarrollo** de la persona en esa tarea. Ese nivel combina dos cosas: cuánto **sabe** hacerla (su competencia) y cuántas **ganas y confianza** tiene para hacerla (su compromiso). Mientras alguien aprende una tarea, pasa por cuatro niveles, y en cada uno necesita algo distinto."
+    },
+    {
+     "t": "imagen",
+     "_imagen": true,
+     "tipo": "grafico",
+     "src": "img/clases/adm-4-01-niveles.svg",
+     "src_movil": "img/clases/adm-4-01-niveles-movil.svg",
+     "alt": "Escalera de cuatro escalones con la misma persona subiendo. Nivel 1: sabe poco y tiene ganas, conviene dirigir. Nivel 2: sabe algo y se desanima, conviene entrenar. Nivel 3: sabe hacerla y duda de sí, conviene apoyar. Nivel 4: la domina y tiene confianza, conviene delegar.",
+     "epigrafe": "Ilustraciones elaboradas para esta clase.",
+     "animacion": "svg"
+    },
+    {
+     "t": "destacado",
+     "titulo": "Para recordar",
+     "texto": "En el **liderazgo situacional**, quien lidera elige cuánto **dirige** y cuánto **apoya** según el **nivel de desarrollo** de la persona en una tarea concreta. Los cuatro estilos son dirigir, entrenar, apoyar y delegar."
+    },
+    {
+     "t": "texto",
+     "titulo": "Un caso para trabajar",
+     "texto": "Mica y Fran tienen un emprendimiento de remeras estampadas que venden por redes. Trabajan con cuatro personas, y cada una está en un momento distinto con su tarea. Leé cada caso y elegí qué estilo usarías con esa persona."
+    },
+    {
+     "t": "perillas",
+     "consigna": "Leé cada caso y tocá en el plano el estilo que conviene usar con esa persona. Si no te acordás, mirá la escalera de los niveles.",
+     "ejes": {
+      "x": "Cuánto dirige",
+      "y": "Cuánto apoya"
+     },
+     "cuadros": {
+      "Apoyar": {
+       "x": "bajo",
+       "y": "alto",
+       "color": "#4B4FA3"
+      },
+      "Entrenar": {
+       "x": "alto",
+       "y": "alto",
+       "color": "#B83A7A"
+      },
+      "Delegar": {
+       "x": "bajo",
+       "y": "bajo",
+       "color": "#5B2A86"
+      },
+      "Dirigir": {
+       "x": "alto",
+       "y": "bajo",
+       "color": "#F0731E"
+      }
+     },
+     "casos": [
+      {
+       "nombre": "Tomi, estampado",
+       "img": "img/clases/adm-4-01-caso-tomi.webp",
+       "animo": "entusiasmo",
+       "estilo": "Dirigir",
+       "texto": "Se sumó ayer. Nunca usó la plancha de estampar y está muy entusiasmado.",
+       "explicacion": "Sabe poco y tiene ganas: necesita indicaciones claras de qué hacer y cómo. El entusiasmo ya lo tiene.",
+       "pista": "Tomi no sabe hacer la tarea. ¿Necesita más indicaciones o más ánimo?"
+      },
+      {
+       "nombre": "Lara, fotos de los productos",
+       "img": "img/clases/adm-4-01-caso-lara.webp",
+       "animo": "desanimo",
+       "estilo": "Entrenar",
+       "texto": "Aprendió a sacar las fotos, pero todavía le salen oscuras y se frustra.",
+       "explicacion": "Aprendió algo, pero se desanimó: necesita que le sigan explicando y, además, que la alienten.",
+       "pista": "Lara todavía no domina la tarea y además está desanimada. Pensá si le alcanza con una sola de las dos cosas."
+      },
+      {
+       "nombre": "Nico, mensajes de clientes",
+       "img": "img/clases/adm-4-01-caso-nico.webp",
+       "animo": "duda",
+       "estilo": "Apoyar",
+       "texto": "Responde bien los mensajes, pero siempre consulta antes de enviar, por las dudas.",
+       "explicacion": "Sabe hacer la tarea; lo que le falta es confianza. Más instrucciones no lo ayudan: necesita que lo escuchen y le den seguridad.",
+       "pista": "Nico ya sabe hacerlo. ¿Le faltan indicaciones o le falta confianza?"
+      },
+      {
+       "nombre": "Sofi, estampado",
+       "img": "img/clases/adm-4-01-caso-sofi.webp",
+       "animo": "confianza",
+       "estilo": "Delegar",
+       "texto": "Estampa sin errores desde hace dos años y le gusta hacerlo.",
+       "explicacion": "Domina la tarea y tiene confianza: puede hacerla con poca dirección y poco apoyo.",
+       "pista": "Sofi sabe y tiene ganas. ¿Necesita que alguien le diga qué hacer?"
+      }
+     ],
+     "cierre": "Elegiste el estilo para las cuatro personas. Cada una necesitaba una combinación distinta de dirección y apoyo."
+    },
+    {
+     "t": "texto",
+     "titulo": "El nivel depende de la tarea",
+     "texto": "El nivel de desarrollo no es de la persona, sino de la persona **en una tarea**. Sofi estampa sin ayuda y, al mismo tiempo, puede no saber nada de responder mensajes de clientes. Con la misma persona, quien lidera puede delegar una tarea y dirigir otra."
+    },
+    {
+     "t": "clasificar",
+     "estilo": "plano",
+     "consigna": "Estas son seis personas más del emprendimiento, cada una con su tarea. Ubicá cada caso en el cuadro del estilo que conviene usar.",
+     "categorias": [
+      "Apoyar",
+      "Entrenar",
+      "Delegar",
+      "Dirigir"
+     ],
+     "subtitulos": [
+      "Poca dirección, mucho apoyo",
+      "Mucha dirección, mucho apoyo",
+      "Poca dirección, poco apoyo",
+      "Mucha dirección, poco apoyo"
+     ],
+     "ejes": {
+      "y": "Cuánto apoya",
+      "x": "Cuánto dirige"
+     },
+     "items": [
+      {
+       "texto": "Juli arma los paquetes de los envíos desde hace un año, sin errores y con gusto.",
+       "cat": "Delegar"
+      },
+      {
+       "texto": "Bauti lleva las cuentas del emprendimiento desde el principio y nunca necesitó ayuda.",
+       "cat": "Delegar"
+      },
+      {
+       "texto": "Cami diseña estampas muy buenas, pero no se anima a mostrar las suyas porque teme que no gusten.",
+       "cat": "Apoyar"
+      },
+      {
+       "texto": "Mateo empieza hoy a responder mensajes de clientes y tiene muchas ganas de aprender.",
+       "cat": "Dirigir"
+      },
+      {
+       "texto": "Agus aprendió a editar los videos para redes, pero le llevan horas y dice que no es lo suyo.",
+       "cat": "Entrenar"
+      },
+      {
+       "texto": "Rocío sabe calcular los precios, pero siempre pide que alguien revise sus cuentas antes de publicarlos.",
+       "cat": "Apoyar"
+      }
+     ],
+     "pista": "Para cada persona, preguntate cuánto sabe de su tarea y cómo se siente. Después buscá el escalón de la escalera.",
+     "explicacion": "Juli y Bauti dominan su tarea y tienen confianza: se delega. Cami y Rocío saben, pero dudan: se las apoya. Mateo recién empieza con ganas: se lo dirige. Agus aprendió algo y se desanimó: se lo entrena."
+    },
+    {
+     "t": "ejemplo",
+     "titulo": "Pensalo así: aprender a andar en bici",
+     "texto": "Cuando aprendiste a andar en bicicleta, primero alguien te sostenía y te decía qué hacer con los pedales (dirigir). Después te caíste y te dieron ganas de abandonar: te siguieron explicando, pero también te alentaron (entrenar). Más tarde ya sabías, aunque te daba miedo soltarte: te acompañaban corriendo al lado, sin dar indicaciones (apoyar). Hasta que un día te dejaron ir sin ayuda (delegar)."
+    },
+    {
+     "t": "dato",
+     "titulo": "Para tener en cuenta",
+     "texto": "El liderazgo situacional se usa mucho para capacitar a quienes coordinan equipos. Pero es un modelo, no una ley: algunos estudios no confirmaron todas sus recomendaciones. Sirve como guía para pensar qué necesita cada persona, no como una receta exacta."
+    },
+    {
+     "t": "opcion",
+     "pregunta": "🔍 Encontrá el error: una de estas frases sobre el liderazgo situacional está equivocada. ¿Cuál?",
+     "opciones": [
+      "Una misma persona puede necesitar estilos distintos para tareas distintas",
+      "Quien domina la tarea y tiene confianza puede trabajar con poca dirección",
+      "Quien lidera elige un estilo y lo usa con todo el equipo todo el tiempo",
+      "Quien recién empieza una tarea necesita indicaciones claras de qué hacer"
+     ],
+     "correcta": 2,
+     "explicacion": "La idea del modelo es lo contrario: quien lidera cambia de estilo según la persona y la tarea.",
+     "pista": "Releé la idea central del modelo, en el texto Dirigir y apoyar."
+    },
+    {
+     "t": "revelar",
+     "pregunta": "Pensá en algo que aprendiste a hacer (un deporte, un instrumento, un juego). ¿En qué escalón estás hoy en esa tarea, y qué estilo te serviría que usara quien te enseña?",
+     "respuesta": "No hay una única respuesta. Si recién empezás, te sirven indicaciones claras (dirigir). Si ya sabés algo pero te frustra, indicaciones y aliento (entrenar). Si sabés pero dudás, que confíen en vos (apoyar). Si lo dominás, que te dejen hacerlo (delegar)."
+    }
+   ],
+   "carpeta": {
+    "titulo": "Anotá en tu carpeta",
+    "instruccion": "Explicá el liderazgo situacional y aplicalo a un caso: elegí una tarea de un emprendimiento o un club inventado y contá qué estilo usarías con una persona que recién empieza y con otra que ya la domina.",
+    "guia": [
+     "¿Qué propusieron Hersey y Blanchard?",
+     "¿Qué es dirigir y qué es apoyar?",
+     "¿Cuáles son los cuatro estilos y qué combina cada uno?",
+     "¿Qué dos cosas se miran para saber el nivel de desarrollo de una persona?",
+     "¿Por qué el nivel depende de la tarea y no de la persona?"
+    ]
+   },
+   "juegos": [
+    {
+     "tipo": "vf",
+     "texto": "En el liderazgo situacional, el estilo cambia según la persona y la tarea.",
+     "respuesta": true,
+     "explicacion": "No hay un estilo que sirva para todo."
+    },
+    {
+     "tipo": "vf",
+     "texto": "Dirigir es escuchar, animar y explicar el porqué.",
+     "respuesta": false,
+     "explicacion": "Eso es apoyar. Dirigir es decir qué, cómo y cuándo, y controlar."
+    },
+    {
+     "tipo": "vf",
+     "texto": "El estilo entrenar combina mucha dirección y mucho apoyo.",
+     "respuesta": true,
+     "explicacion": "Sirve para quien ya aprendió algo pero se desanima."
+    },
+    {
+     "tipo": "vf",
+     "texto": "Una persona está siempre en el mismo nivel de desarrollo, sea cual sea la tarea.",
+     "respuesta": false,
+     "explicacion": "El nivel depende de la tarea: se puede dominar una y recién empezar otra."
+    },
+    {
+     "tipo": "vf",
+     "texto": "Delegar conviene con quien domina la tarea y tiene confianza.",
+     "respuesta": true,
+     "explicacion": "Puede hacerla con poca dirección y poco apoyo."
+    },
+    {
+     "tipo": "vf",
+     "texto": "El modelo fue propuesto por Kurt Lewin.",
+     "respuesta": false,
+     "explicacion": "Lo propusieron Paul Hersey y Ken Blanchard. Lewin hizo el estudio de los tres estilos."
+    },
+    {
+     "tipo": "mc",
+     "pregunta": "¿Qué dos cosas combina el nivel de desarrollo?",
+     "opciones": [
+      "La edad de la persona y los años que lleva en el trabajo",
+      "El cargo de la persona y la cantidad de tareas que tiene",
+      "Lo que opina quien lidera y lo que opina el resto del grupo",
+      "Lo que la persona sabe de la tarea y sus ganas y confianza"
+     ],
+     "correcta": 3,
+     "explicacion": "Competencia (cuánto sabe) y compromiso (ganas y confianza)."
+    },
+    {
+     "tipo": "mc",
+     "pregunta": "Alguien recién empieza una tarea y tiene muchas ganas de aprender. ¿Qué estilo conviene?",
+     "opciones": [
+      "Entrenar",
+      "Dirigir",
+      "Delegar",
+      "Apoyar"
+     ],
+     "correcta": 1,
+     "explicacion": "Necesita indicaciones claras: está en el nivel 1."
+    },
+    {
+     "tipo": "mc",
+     "pregunta": "¿Qué estilo combina poca dirección y poco apoyo?",
+     "opciones": [
+      "Apoyar",
+      "Dirigir",
+      "Delegar",
+      "Entrenar"
+     ],
+     "correcta": 2,
+     "explicacion": "Es el que se usa con quien ya domina la tarea y tiene confianza."
+    },
+    {
+     "tipo": "mc",
+     "pregunta": "Una persona sabe hacer la tarea, pero duda de sí misma. ¿Qué necesita sobre todo?",
+     "opciones": [
+      "Que le den instrucciones más detalladas",
+      "Que le saquen la tarea por un tiempo",
+      "Que la escuchen y le den confianza",
+      "Que la controlen más de cerca cada día"
+     ],
+     "correcta": 2,
+     "explicacion": "Está en el nivel 3: ya sabe, le falta seguridad. Por eso conviene apoyar."
+    },
+    {
+     "tipo": "mc",
+     "pregunta": "¿Cómo se llama el modelo de Hersey y Blanchard?",
+     "opciones": [
+      "Liderazgo situacional",
+      "Liderazgo democrático",
+      "Liderazgo liberal",
+      "Liderazgo autoritario"
+     ],
+     "correcta": 0,
+     "explicacion": "Se llama así porque el estilo depende de la situación."
+    },
+    {
+     "tipo": "mc",
+     "pregunta": "¿Qué es lo más adecuado para pensar este modelo?",
+     "opciones": [
+      "Usarlo solo en empresas grandes con muchos empleados",
+      "Usarlo una vez al año para evaluar a todo el equipo",
+      "Usarlo como una guía para pensar qué necesita cada persona",
+      "Usarlo como una ley que siempre da el resultado esperado"
+     ],
+     "correcta": 2,
+     "explicacion": "Es un modelo útil, pero algunos estudios no confirmaron todas sus recomendaciones."
+    }
+   ],
+   "palabras": [
+    {
+     "palabra": "SITUACIONAL",
+     "pista": "Liderazgo que cambia de estilo según la persona y la tarea."
+    },
+    {
+     "palabra": "DIRIGIR",
+     "pista": "Decir qué, cómo y cuándo hacer algo, y controlar que salga bien."
+    },
+    {
+     "palabra": "APOYAR",
+     "pista": "Escuchar, animar y explicar el porqué."
+    },
+    {
+     "palabra": "ENTRENAR",
+     "pista": "Estilo con mucha dirección y mucho apoyo."
+    },
+    {
+     "palabra": "DELEGAR",
+     "pista": "Dejar la tarea en manos de quien ya la domina."
+    },
+    {
+     "palabra": "COMPETENCIA",
+     "pista": "Cuánto sabe hacer una persona una tarea."
+    }
+   ],
+   "autoevaluacion": [
+    {
+     "tipo": "mc",
+     "pregunta": "¿Cuál es la idea central del liderazgo situacional?",
+     "opciones": [
+      "Quien lidera deja que el equipo resuelva todo sin ayuda",
+      "Quien lidera adapta su estilo a cada persona y cada tarea",
+      "Quien lidera usa el mismo estilo con todas las personas",
+      "Quien lidera decide sin consultar y explica sus razones"
+     ],
+     "correcta": 1,
+     "explicacion": "Por eso se llama situacional: depende de la situación."
+    },
+    {
+     "tipo": "mc",
+     "pregunta": "Lara aprendió a sacar fotos, pero le salen oscuras y se frustra. ¿Qué estilo conviene?",
+     "opciones": [
+      "Delegar",
+      "Apoyar",
+      "Entrenar",
+      "Dirigir"
+     ],
+     "correcta": 2,
+     "explicacion": "Aprendió algo y se desanimó: necesita indicaciones y aliento."
+    },
+    {
+     "tipo": "mc",
+     "pregunta": "¿Por qué el nivel de desarrollo depende de la tarea?",
+     "opciones": [
+      "Porque cada tarea tiene una persona responsable distinta",
+      "Porque las tareas difíciles las hace siempre quien lidera",
+      "Porque el nivel lo decide el cargo que tiene la persona",
+      "Porque se puede dominar una tarea y recién empezar otra"
+     ],
+     "correcta": 3,
+     "explicacion": "Sofi estampa sin ayuda, pero recién empieza a responder mensajes."
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "titulo": "La cultura organizacional: lo que se ve y lo que no",
+   "tiempo": "20 a 30 min",
+   "bloques": [
+    {
+     "t": "texto",
+     "titulo": "Qué es la cultura de una organización",
+     "texto": "Toda organización tiene una **cultura organizacional**: las formas de pensar, de actuar y de relacionarse que comparten las personas que la forman. No está escrita en un solo lugar. Se aprende viviéndola: mirando qué hacen los demás, qué se premia y qué se deja pasar.\n\nEl psicólogo **Edgar Schein**, que estudió la cultura de las organizaciones, propuso mirarla en tres niveles. Algunos se ven a simple vista y otros quedan escondidos, como pasa con un iceberg."
+    },
+    {
+     "t": "imagen",
+     "_imagen": true,
+     "tipo": "grafico",
+     "src": "img/clases/adm-4-01-iceberg.svg",
+     "src_movil": "img/clases/adm-4-01-iceberg-movil.svg",
+     "alt": "Iceberg con tres niveles. Arriba del agua, lo que se ve: artefactos y conductas, como uniformes, el lugar de trabajo, los rituales y la forma de hablar. Justo debajo del agua, lo que se dice: valores declarados, como carteles, reglamentos y discursos. En lo profundo, lo que se da por hecho: supuestos básicos, creencias que nadie discute.",
+     "epigrafe": "Ilustración elaborada para esta clase, a partir de los tres niveles de la cultura que propuso Edgar Schein.",
+     "animacion": "svg"
+    },
+    {
+     "t": "texto",
+     "titulo": "Los tres niveles",
+     "texto": "**Lo que se ve (artefactos y conductas).** Es lo que nota cualquiera que entra: la ropa, cómo está decorado el lugar, cómo se saludan, qué palabras usan, los festejos.\n\n**Lo que se dice (valores declarados).** Es lo que la organización afirma que le importa: un cartel, el reglamento, la publicación en redes que cuenta \"quiénes somos\".\n\n**Lo que se da por hecho (supuestos básicos).** Son creencias tan compartidas que nadie las pone en duda ni las dice en voz alta. Este nivel es el que más pesa en lo que hace cada persona, y el más difícil de ver: se descubre mirando cómo actúa la gente."
+    },
+    {
+     "t": "destacado",
+     "titulo": "Para recordar",
+     "texto": "La **cultura organizacional** son las formas de pensar y de actuar que comparte una organización. Según Schein, tiene tres niveles: **lo que se ve** (artefactos y conductas), **lo que se dice** (valores declarados) y **lo que se da por hecho** (supuestos básicos)."
+    },
+    {
+     "t": "texto",
+     "titulo": "Un caso para trabajar",
+     "texto": "Entrá a la sala del equipo de e-sports del club. Hay seis pistas sobre su cultura: buscalas y decidí en qué nivel del iceberg va cada una."
+    },
+    {
+     "t": "escena",
+     "svg": "img/clases/adm-4-01-escena.svg",
+     "consigna": "Tocá cada lupa de la ilustración. Leé la pista y elegí en qué nivel de la cultura la ubicás.",
+     "alt": "Sala de un club de e-sports con seis lupas para tocar: el cartel de valores, el reglamento en el corcho, el saludo con los puños, las camisetas iguales, una jugadora que cuenta algo en la mesa y una integrante que ayuda a un chico nuevo.",
+     "categorias": [
+      "Lo que se ve",
+      "Lo que se dice",
+      "Lo que se da por hecho"
+     ],
+     "escala": 1.7,
+     "pistas": [
+      {
+       "x": 368,
+       "y": 228,
+       "cat": "Lo que se dice",
+       "texto": "Un cartel en la pared dice: \"Respetamos a los rivales, ganemos o perdamos\".",
+       "explicacion": "Es un valor declarado: lo que el club afirma que le importa.",
+       "pista": "Es algo que el club escribió y colgó. Buscá el nivel de lo que se afirma."
+      },
+      {
+       "x": 466,
+       "y": 392,
+       "cat": "Lo que se dice",
+       "texto": "El reglamento, en el corcho, dice que las decisiones importantes se votan.",
+       "explicacion": "Un reglamento es un valor declarado. Para saber si se cumple, hay que mirar qué hace el equipo.",
+       "pista": "Pensá dónde ubicaste el cartel: esto también está escrito."
+      },
+      {
+       "x": 262,
+       "y": 412,
+       "cat": "Lo que se ve",
+       "texto": "Antes de cada partida, chocan los puños.",
+       "explicacion": "Es un ritual: una conducta que se ve a simple vista.",
+       "pista": "Es algo que hacen delante de todos. ¿Se ve o está escondido?"
+      },
+      {
+       "x": 120,
+       "y": 600,
+       "cat": "Lo que se ve",
+       "texto": "Todo el equipo usa la misma camiseta, bordó con una franja blanca.",
+       "explicacion": "La camiseta es un artefacto: cualquiera que entra lo nota.",
+       "pista": "¿Alguien de afuera lo podría notar con solo mirar?"
+      },
+      {
+       "x": 760,
+       "y": 470,
+       "cat": "Lo que se da por hecho",
+       "texto": "En la revisión, cada jugador cuenta sus errores. Nadie lo pidió nunca, pero a nadie se le ocurre ocultarlos.",
+       "explicacion": "Lo que se ve es la conducta; lo que la explica es una creencia que nadie discute: acá equivocarse no es motivo de vergüenza.",
+       "pista": "No está escrito en ningún lado y nadie lo anunció. Buscá el nivel más profundo."
+      },
+      {
+       "x": 1330,
+       "y": 640,
+       "cat": "Lo que se da por hecho",
+       "texto": "Cuando llega alguien nuevo, cualquiera se acerca a ayudarlo. No figura en ningún reglamento: en este club es lo normal.",
+       "explicacion": "Es un supuesto básico: todos creen que ayudar a quien llega es lo natural, sin que nadie lo diga.",
+       "pista": "Fijate en la frase \"es lo normal\": es algo que todos dan por hecho."
+      }
+     ],
+     "cierre": "Ubicaste las seis pistas. La camiseta y el saludo se ven; el cartel y el reglamento se dicen; y la confianza para contar errores y la ayuda a quien llega se dan por hecho."
+    },
+    {
+     "t": "texto",
+     "titulo": "Quien lidera, enseña la cultura",
+     "texto": "Schein también observó que quienes lideran tienen mucho que ver con cómo se forma una cultura. El equipo no aprende tanto de lo que quien lidera dice, sino de lo que hace todos los días: a qué le presta atención, qué premia y cómo reacciona cuando algo sale mal. Así se formó, por ejemplo, la costumbre de contar los errores en la revisión."
+    },
+    {
+     "t": "cadena",
+     "titulo": "Cómo se forma una costumbre en un equipo",
+     "pasos": [
+      {
+       "titulo": "Quien capitanea actúa de una manera",
+       "texto": "Después de cada derrota, revisa la partida con el equipo y pregunta qué aprendieron, sin buscar culpables."
+      },
+      {
+       "titulo": "El equipo lo ve y lo prueba",
+       "texto": "Un jugador cuenta un error propio y nota que no lo retan."
+      },
+      {
+       "titulo": "Funciona y se repite",
+       "texto": "El equipo mejora y la revisión se hace en cada fecha."
+      },
+      {
+       "titulo": "Se vuelve \"lo normal\"",
+       "texto": "Cuando llega alguien nuevo, el grupo le enseña que acá los errores se cuentan."
+      },
+      {
+       "titulo": "Pasa a darse por hecho",
+       "texto": "Ya nadie lo discute: forma parte de la cultura del equipo."
+      }
+     ]
+    },
+    {
+     "t": "texto",
+     "titulo": "Lo que se dice y lo que se hace",
+     "texto": "A veces lo que una organización dice no coincide con lo que hace. Imaginá dos gimnasios del barrio con el mismo cartel: \"Acá somos un equipo\". En el primero, el profesor saluda a cada persona por su nombre y, cuando alguien no sabe usar una máquina, otra persona se acerca a explicarle. En el segundo, nadie habla con nadie y quien pregunta algo recibe un \"está en el reglamento\".\n\nCuando lo dicho y lo hecho coinciden, las personas confían, se sienten parte y cuidan lo que es de todos. A eso se lo llama **sentido de pertenencia**. El diseño curricular de esta materia lo señala como una tarea de quien lidera un equipo."
+    },
+    {
+     "t": "girar",
+     "consigna": "Cada tarjeta muestra lo que dice una organización. Dala vuelta para ver lo que hace, y decidí si coinciden.",
+     "frente": "Lo que dice",
+     "dorso": "Lo que hace",
+     "tarjetas": [
+      {
+       "icono": "🏋️",
+       "img": "img/clases/adm-4-01-org-gimnasio.webp",
+       "org": "Gimnasio del barrio",
+       "dice": "Cartel en la entrada: \"Acá somos un equipo\".",
+       "hace": "Cuando alguien nuevo no sabe usar una máquina, otra persona se acerca a explicarle.",
+       "coincide": true,
+       "explicacion": "Lo que se ve confirma lo que se dice: el cartel se cumple."
+      },
+      {
+       "icono": "🍔",
+       "img": "img/clases/adm-4-01-org-local.webp",
+       "org": "Local de comidas",
+       "dice": "Manual para quien empieza: \"Escuchamos las ideas de todo el personal\".",
+       "hace": "Cuando alguien propone un cambio, le contestan \"siempre se hizo así\" y no se habla más.",
+       "coincide": false,
+       "explicacion": "El manual dice una cosa y la conducta muestra otra. El personal aprende de lo que ve: que proponer no sirve."
+      },
+      {
+       "icono": "🎮",
+       "img": "img/clases/adm-4-01-org-esports.webp",
+       "org": "Equipo de e-sports",
+       "dice": "Reglamento: \"Las decisiones importantes se votan\".",
+       "hace": "El capitán elige solo la estrategia y la lista, y el resto se entera por mensaje.",
+       "coincide": false,
+       "explicacion": "El valor declarado no se cumple. Si eso se repite, el equipo aprende que opinar no vale la pena."
+      },
+      {
+       "icono": "👕",
+       "img": "img/clases/adm-4-01-org-remeras.webp",
+       "org": "Emprendimiento de remeras",
+       "dice": "Publicación en redes: \"Cada remera se revisa antes de salir\".",
+       "hace": "Antes de cada envío, alguien del equipo revisa las remeras, y si una tiene una falla se vuelve a hacer.",
+       "coincide": true,
+       "explicacion": "Lo dicho y lo hecho coinciden: eso genera confianza en el equipo y en quienes compran."
+      }
+     ],
+     "cierre": "Cuando lo que se dice y lo que se hace no coinciden, las personas copian lo que ven hacer. Cuando coinciden, crece la confianza y el sentido de pertenencia."
+    },
+    {
+     "t": "dilema",
+     "titulo": "Una situación para pensar",
+     "situacion": "Esta situación es inventada. Te eligen capitán o capitana del equipo de e-sports del club. El reglamento dice que las decisiones importantes se votan, pero quien capitaneaba antes decidía todo sin consultar y el equipo se acostumbró a no opinar. ¿Qué hacés?",
+     "opciones": [
+      {
+       "texto": "Sigo como quien estaba antes: el equipo ya está acostumbrado y así no se pierde tiempo.",
+       "consecuencia": "El reglamento dice una cosa y el equipo ve otra. Como el grupo copia lo que ve, la costumbre de no opinar se mantiene.",
+       "adecuada": false
+      },
+      {
+       "texto": "Pego un cartel nuevo en el canal del equipo: \"Acá decidimos entre todos\".",
+       "consecuencia": "El cartel suma un valor declarado, pero no cambia lo que el equipo vive. Si las decisiones las seguís tomando sin consultar, el cartel no alcanza.",
+       "adecuada": false
+      },
+      {
+       "texto": "En la próxima decisión llevo dos opciones, pido que cada persona opine y votamos. Lo repito en cada fecha.",
+       "consecuencia": "Al actuar de otra manera y repetirlo, el equipo ve que opinar sirve. Con el tiempo, decidir entre todos puede volverse lo normal.",
+       "adecuada": true
+      }
+     ],
+     "cierre": "Para cambiar una cultura no alcanza con decir otra cosa: quien lidera tiene que actuar distinto, y sostenerlo, para que el equipo lo aprenda."
+    },
+    {
+     "t": "completar",
+     "consigna": "Completá el texto con las palabras que faltan. Si no te acordás, volvé al iceberg y al texto Lo que se dice y lo que se hace.",
+     "texto": "Un cartel o un reglamento muestran los valores [[declarados]] de una organización. Las creencias que nadie discute son los supuestos [[básicos]]. Cuando lo que se dice y lo que se hace no coinciden, el equipo suele copiar lo que se [[hace]]. Cuando coinciden, las personas se sienten parte: crece el sentido de [[pertenencia]].",
+     "explicacion": "Lo que se dice está en los valores declarados, y lo que se da por hecho, en los supuestos básicos. El equipo aprende sobre todo de lo que ve hacer.",
+     "pista": "Las dos primeras palabras están en los nombres de los niveles del iceberg."
+    },
+    {
+     "t": "revelar",
+     "pregunta": "Pensá en algún grupo del que formes parte (un equipo, un grupo de amigos, un curso). Sin anotarlo en ningún lado: ¿qué cosa se da por hecha ahí, aunque nadie la haya dicho nunca?",
+     "respuesta": "No hay una respuesta única. Puede ser quién elige la música, que siempre se espera a quien llega tarde o que en ese grupo no se habla de ciertos temas. Lo importante es notar que esas reglas no escritas existen y que se aprenden mirando, igual que en una organización."
+    }
+   ],
+   "carpeta": {
+    "titulo": "Anotá en tu carpeta",
+    "instruccion": "Explicá qué es la cultura organizacional y sus tres niveles. Después inventá una organización (un club, un local, un emprendimiento) y dá un ejemplo de cada nivel.",
+    "guia": [
+     "¿Qué es la cultura organizacional y cómo se aprende?",
+     "¿Cuáles son los tres niveles que propuso Schein?",
+     "¿Por qué el nivel más profundo es el más difícil de ver?",
+     "¿Qué tiene que ver quien lidera con la cultura de un equipo?",
+     "¿Qué es el sentido de pertenencia y cuándo aparece?",
+     "En tu organización inventada, ¿qué se ve, qué se dice y qué se da por hecho?"
+    ]
+   },
+   "juegos": [
+    {
+     "tipo": "vf",
+     "texto": "La cultura organizacional se aprende viviéndola y mirando qué hacen los demás.",
+     "respuesta": true,
+     "explicacion": "No está escrita en un solo lugar."
+    },
+    {
+     "tipo": "vf",
+     "texto": "Un cartel con los valores de la empresa es un supuesto básico.",
+     "respuesta": false,
+     "explicacion": "Es un valor declarado: lo que la organización dice que le importa."
+    },
+    {
+     "tipo": "vf",
+     "texto": "Los uniformes y los saludos son artefactos y conductas.",
+     "respuesta": true,
+     "explicacion": "Son lo que se ve a simple vista."
+    },
+    {
+     "tipo": "vf",
+     "texto": "Los supuestos básicos son creencias que nadie discute.",
+     "respuesta": true,
+     "explicacion": "Son el nivel más profundo del iceberg."
+    },
+    {
+     "tipo": "vf",
+     "texto": "Si quien lidera hace algo distinto de lo que dice el reglamento, el equipo suele seguir el reglamento.",
+     "respuesta": false,
+     "explicacion": "El equipo suele copiar lo que ve hacer."
+    },
+    {
+     "tipo": "vf",
+     "texto": "El sentido de pertenencia crece cuando lo que se dice coincide con lo que se hace.",
+     "respuesta": true,
+     "explicacion": "Las personas confían y se sienten parte."
+    },
+    {
+     "tipo": "mc",
+     "pregunta": "¿Quién propuso mirar la cultura organizacional en tres niveles?",
+     "opciones": [
+      "Ken Blanchard",
+      "Paul Hersey",
+      "Kurt Lewin",
+      "Edgar Schein"
+     ],
+     "correcta": 3,
+     "explicacion": "Propuso mirarla desde lo que se ve hasta lo que se da por hecho."
+    },
+    {
+     "tipo": "mc",
+     "pregunta": "¿Qué nivel de la cultura es el más difícil de ver?",
+     "opciones": [
+      "Los uniformes y los logos",
+      "Los artefactos y las conductas",
+      "Los valores declarados",
+      "Los supuestos básicos"
+     ],
+     "correcta": 3,
+     "explicacion": "Son creencias tan compartidas que nadie las dice en voz alta."
+    },
+    {
+     "tipo": "mc",
+     "pregunta": "En un local, todo el personal usa gorra roja. ¿Qué nivel de la cultura es?",
+     "opciones": [
+      "Lo que se da por hecho",
+      "Lo que se dice",
+      "Lo que se ve",
+      "Ninguno de los tres"
+     ],
+     "correcta": 2,
+     "explicacion": "La gorra la nota cualquiera que entra: es un artefacto."
+    },
+    {
+     "tipo": "mc",
+     "pregunta": "¿Cuál de estas acciones ayuda más a cambiar una costumbre de un equipo?",
+     "opciones": [
+      "Que quien lidera cuelgue un cartel con la nueva regla",
+      "Que quien lidera cambie el nombre y el logo del equipo",
+      "Que quien lidera envíe un mensaje explicando la regla",
+      "Que quien lidera actúe distinto y lo repita en el tiempo"
+     ],
+     "correcta": 3,
+     "explicacion": "El equipo aprende de lo que ve hacer, y la costumbre necesita repetirse."
+    },
+    {
+     "tipo": "mc",
+     "pregunta": "¿Qué es el sentido de pertenencia?",
+     "opciones": [
+      "La sensación de ser parte de una organización",
+      "El reglamento que tienen que cumplir sus miembros",
+      "El derecho que da el cargo a decidir por el resto",
+      "La lista de valores que publica una organización"
+     ],
+     "correcta": 0,
+     "explicacion": "Aparece cuando las personas confían y sienten que la organización también es suya."
+    },
+    {
+     "tipo": "mc",
+     "pregunta": "Un equipo dice \"acá todos opinan\", pero solo habla el capitán. ¿Qué pasa?",
+     "opciones": [
+      "La cultura del equipo deja de existir por completo",
+      "Lo que se dice no coincide con lo que se hace",
+      "El equipo tiene una cultura sin ningún supuesto",
+      "El valor declarado se cumple de todas maneras"
+     ],
+     "correcta": 1,
+     "explicacion": "Hay distancia entre el valor declarado y la conducta. El equipo aprende de la conducta."
+    }
+   ],
+   "palabras": [
+    {
+     "palabra": "CULTURA",
+     "pista": "Formas de pensar y de actuar que comparte una organización."
+    },
+    {
+     "palabra": "ARTEFACTOS",
+     "pista": "Lo que se ve de una cultura: ropa, lugar, rituales."
+    },
+    {
+     "palabra": "VALORES",
+     "pista": "Lo que una organización dice que le importa."
+    },
+    {
+     "palabra": "SUPUESTOS",
+     "pista": "Creencias que nadie discute: el nivel más profundo."
+    },
+    {
+     "palabra": "ICEBERG",
+     "pista": "Imagen que muestra que la mayor parte de la cultura no se ve."
+    },
+    {
+     "palabra": "PERTENENCIA",
+     "pista": "Sentirse parte de una organización."
+    }
+   ],
+   "autoevaluacion": [
+    {
+     "tipo": "mc",
+     "pregunta": "¿Cuáles son los tres niveles de la cultura según Schein?",
+     "opciones": [
+      "Artefactos y conductas, valores declarados y supuestos básicos",
+      "Autoritario, democrático y liberal, según quién decide",
+      "Dirigir, apoyar y delegar, según lo que necesita la persona",
+      "Misión, visión y objetivos, según lo que dice el reglamento"
+     ],
+     "correcta": 0,
+     "explicacion": "Van de lo que se ve a lo que se da por hecho."
+    },
+    {
+     "tipo": "mc",
+     "pregunta": "\"Nadie lo dice, pero acá pedir ayuda está bien visto\". ¿Qué nivel es?",
+     "opciones": [
+      "Lo que se dice",
+      "Lo que se da por hecho",
+      "No es parte de la cultura",
+      "Lo que se ve"
+     ],
+     "correcta": 1,
+     "explicacion": "Es una creencia compartida que nadie anuncia: un supuesto básico."
+    },
+    {
+     "tipo": "mc",
+     "pregunta": "¿Por qué quien lidera tiene mucho que ver con la cultura de un equipo?",
+     "opciones": [
+      "Porque la cultura depende solo de los carteles que se cuelgan",
+      "Porque quien lidera elige la ropa que se usa en el equipo",
+      "Porque el equipo aprende de lo que ve hacer a quien lidera",
+      "Porque quien lidera escribe solo el reglamento del equipo"
+     ],
+     "correcta": 2,
+     "explicacion": "Lo que quien lidera premia, mira y hace todos los días se vuelve costumbre."
+    }
+   ]
+  }
+ ],
+ "vocabulario": [
+  {
+   "palabra": "Autoridad",
+   "definicion": "Derecho a tomar ciertas decisiones que da un cargo dentro de una organización."
+  },
+  {
+   "palabra": "Liderazgo",
+   "definicion": "Capacidad de influir en otras personas para que quieran trabajar por un objetivo común."
+  },
+  {
+   "palabra": "Estilo de liderazgo",
+   "definicion": "Manera habitual en que alguien toma decisiones, da indicaciones y se relaciona con su equipo."
+  },
+  {
+   "palabra": "Liderazgo situacional",
+   "definicion": "Modelo de Hersey y Blanchard: quien lidera elige cuánto dirige y cuánto apoya según el nivel de desarrollo de cada persona en cada tarea."
+  },
+  {
+   "palabra": "Cultura organizacional",
+   "definicion": "Formas de pensar, de actuar y de relacionarse que comparten las personas de una organización."
+  },
+  {
+   "palabra": "Supuestos básicos",
+   "definicion": "Creencias tan compartidas en una organización que nadie las discute. Son el nivel más profundo de la cultura."
+  },
+  {
+   "palabra": "Sentido de pertenencia",
+   "definicion": "Sensación de ser parte de una organización y de que también es propia."
+  }
+ ],
+ "errores_frecuentes": [
+  {
+   "error": "Liderar es lo mismo que tener un cargo.",
+   "aclaracion": "El cargo da autoridad. El liderazgo es influencia, y se puede tener sin un puesto."
+  },
+  {
+   "error": "Hay un estilo de liderazgo que es el mejor para cualquier situación.",
+   "aclaracion": "Según el liderazgo situacional, el estilo conviene elegirlo según la persona y la tarea."
+  },
+  {
+   "error": "La cultura de una organización es lo que dicen sus carteles y su reglamento.",
+   "aclaracion": "Eso son los valores declarados, un solo nivel. La cultura también incluye lo que se ve y lo que se da por hecho."
+  }
+ ],
+ "para_ir_mas_alla": {
+  "pregunta": "Si en un equipo dos personas no se ponen de acuerdo y la discusión empieza a afectar a todos, ¿qué podría hacer quien lidera?",
+  "conexion": "Con la clase 2, sobre las nuevas habilidades gerenciales: ahí vas a ver la negociación, el manejo del conflicto y la comunicación."
+ }
+}

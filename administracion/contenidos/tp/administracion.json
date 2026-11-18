@@ -1,0 +1,131 @@
+{
+ "espacio": "administracion",
+ "titulo": "Mi trabajo práctico de Administración",
+ "intro": "Un buen trabajo práctico de Administración explica los conceptos con precisión y los aplica a organizaciones concretas: un club, un emprendimiento, un local. Eso es lo que vas a presentar y defender.",
+ "claves_contenido": {
+  "a1": [
+   "autoridad",
+   "liderazgo",
+   "influir",
+   "estilo",
+   "autoritario",
+   "democratico",
+   "liberal",
+   "lewin",
+   "situacional",
+   "dirigir",
+   "entrenar",
+   "apoyar",
+   "delegar",
+   "nivel de desarrollo",
+   "cultura organizacional",
+   "artefactos",
+   "valores declarados",
+   "supuestos basicos",
+   "schein",
+   "pertenencia"
+  ]
+ },
+ "portada": {
+  "instruccion": "Escribí la introducción de tu trabajo: presentá los temas de Administración que incluye, en qué orden los vas a presentar y por qué te parece importante conocerlos.",
+  "guia": [
+   "¿De qué temas trata tu trabajo y en qué orden los vas a presentar?",
+   "¿Qué tienen en común esos temas?",
+   "¿Por qué sirve conocerlos para entender cómo funciona una organización?"
+  ],
+  "claves": [],
+  "referencia": "Temas incluidos en orden, qué los une y por qué es importante conocerlos.",
+  "minPalabras": 25,
+  "modelo": "Este trabajo práctico trata sobre {temas}. Primero voy a presentar ……; después, ……; y por último, ……. Elegí este orden porque …….\n\nLo que une a estos temas es ……. Conocerlos es importante para entender cómo funciona una organización porque ……."
+ },
+ "desarrollo": {
+  "a1": {
+   "instruccion": "Explicá qué es el liderazgo y cómo se relaciona con la cultura de una organización. Contá la diferencia entre autoridad y liderazgo, los estilos de liderazgo que estudiaste y los tres niveles de la cultura, con ejemplos de una organización inventada.",
+   "guia": [
+    "¿En qué se diferencian la autoridad y el liderazgo?",
+    "¿Cómo son los estilos autoritario, democrático y liberal, y qué observó el estudio de Lewin?",
+    "¿Qué propone el liderazgo situacional y cómo se elige el estilo que conviene?",
+    "¿Cuáles son los tres niveles de la cultura organizacional? Dá un ejemplo de cada uno.",
+    "¿Qué tiene que ver quien lidera con la cultura y con el sentido de pertenencia?"
+   ],
+   "claves": [],
+   "referencia": "Autoridad (cargo) y liderazgo (influencia). Estilos autoritario, democrático y liberal según Lewin. Liderazgo situacional: dirigir, entrenar, apoyar y delegar según el nivel de desarrollo en cada tarea. Cultura: artefactos, valores declarados y supuestos básicos. El equipo aprende de lo que hace quien lidera; el sentido de pertenencia crece cuando lo que se dice coincide con lo que se hace.",
+   "minPalabras": 60,
+   "modelo": "La autoridad es ……, mientras que el liderazgo es ……. Por ejemplo, en …… \n\nEl estudio de Lewin comparó tres estilos: el autoritario, que ……; el democrático, que ……; y el liberal, que ……. Más tarde, Hersey y Blanchard propusieron el liderazgo situacional: quien lidera elige entre dirigir, entrenar, apoyar y delegar según ……\n\nLa cultura organizacional es ……. Tiene tres niveles: lo que se ve, como ……; lo que se dice, como ……; y lo que se da por hecho, como ……. Quien lidera influye en la cultura porque ……"
+  }
+ },
+ "integracion": {
+  "intro": "Integrar es mostrar que los temas se conectan: unos explican a otros, se parecen o se complementan. Las preguntas de abajo relacionan **solo los contenidos que elegiste**.",
+  "intro_uno": "Elegiste un solo contenido. Integrar, en este caso, es mostrar cómo se conectan sus partes: qué explica qué.",
+  "pares": {},
+  "individual": {
+   "a1": [
+    "¿Qué relación hay entre el estilo de liderazgo de quien conduce un equipo y la cultura que se forma en ese equipo?",
+    "¿Por qué elegir bien el estilo de liderazgo ayuda a que las personas se sientan parte de la organización?",
+    "¿Qué pasa con la cultura cuando quien lidera dice una cosa y hace otra?"
+   ]
+  },
+  "generales": [
+   "¿Qué ejemplo de una organización ayuda a entender un concepto de tu trabajo?",
+   "¿Qué concepto de tu trabajo explica por qué un equipo funciona como funciona?"
+  ],
+  "modelo": "Los temas de mi trabajo se relacionan entre sí. Por ejemplo, …… y …… se conectan porque …….\n\nAdemás, …… explica por qué ……, y …… se complementa con …… porque …….",
+  "modelo_uno": "Las partes de este tema se relacionan entre sí. Primero ……, y eso lleva a ……. Por eso, …….\n\nAdemás, …… se conecta con …… porque ……."
+ },
+ "realidad": {
+  "intro": "Relacionar con la realidad es mostrar dónde aparece lo que estudiaste fuera de la carpeta. Para cada contenido que elegiste tenés una pregunta y algunas ideas: elegí un ejemplo concreto de un club, un emprendimiento, un comercio o una institución que conozcas, sin contar datos personales.",
+  "por_contenido": {
+   "a1": {
+    "pregunta": "¿Dónde ves, fuera de la escuela, estilos de liderazgo distintos o los niveles de la cultura de una organización?",
+    "ideas": [
+     "Un club deportivo o de e-sports: cómo conduce quien entrena y qué costumbres tiene el equipo.",
+     "Un comercio o un emprendimiento del barrio: qué se ve al entrar, qué dicen sus carteles o sus redes.",
+     "Una película o una serie donde un personaje lidera un grupo."
+    ]
+   }
+  }
+ },
+ "conclusion": {
+  "instruccion": "Escribí la conclusión de tu trabajo: contá qué aprendiste, qué idea une a los temas que estudiaste y por qué es importante conocerlos.",
+  "guia": [
+   "¿Qué es lo más importante que aprendiste?",
+   "¿Qué idea une a todos tus temas?",
+   "¿Por qué sirve conocer cómo funcionan las organizaciones?",
+   "¿Qué te gustaría que recuerde quien escucha tu trabajo?"
+  ],
+  "claves": [],
+  "referencia": "Aprendizajes, idea que une los temas e importancia para entender las organizaciones.",
+  "minPalabras": 35,
+  "modelo": "Con este trabajo aprendí que ……. La idea que une todos los temas es ……, porque …….\n\nConocer cómo funcionan las organizaciones sirve para …… Lo que más me gustaría que recuerden de mi trabajo es ……."
+ },
+ "preguntas": [
+  {
+   "id": "q-a1-1",
+   "contenido": "a1",
+   "nivel": "Básica",
+   "pregunta": "¿En qué se diferencian la autoridad y el liderazgo? Dá un ejemplo.",
+   "orientacion": "La autoridad viene del cargo: es el derecho a tomar ciertas decisiones. El liderazgo es la capacidad de influir para que las personas quieran trabajar por un objetivo común. Se puede tener una sin la otra."
+  },
+  {
+   "id": "q-a1-2",
+   "contenido": "a1",
+   "nivel": "Media",
+   "pregunta": "¿Cómo son los estilos autoritario, democrático y liberal? ¿Qué observó el estudio de Lewin?",
+   "orientacion": "En el autoritario decide quien lidera sin consultar; en el democrático, el grupo participa; en el liberal, quien lidera casi no interviene. El grupo autoritario producía mientras el líder estaba presente, el democrático fue el más valorado y el liberal, el que menos produjo."
+  },
+  {
+   "id": "q-a1-3",
+   "contenido": "a1",
+   "nivel": "Media",
+   "pregunta": "Según el liderazgo situacional, ¿qué estilo conviene con una persona que ya aprendió algo de la tarea pero se desanima? ¿Por qué?",
+   "orientacion": "Entrenar: mucha dirección y mucho apoyo. Todavía necesita indicaciones, porque no domina la tarea, y también aliento, porque se desanimó."
+  },
+  {
+   "id": "q-a1-4",
+   "contenido": "a1",
+   "nivel": "Alta",
+   "pregunta": "¿Por qué un cartel con valores no alcanza para cambiar la cultura de un equipo?",
+   "orientacion": "El cartel es un valor declarado, un solo nivel de la cultura. El equipo aprende de lo que ve hacer, sobre todo a quien lidera. Para cambiar una costumbre hay que actuar distinto y repetirlo hasta que se dé por hecho."
+  }
+ ]
+}

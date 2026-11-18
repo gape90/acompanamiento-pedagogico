@@ -1,0 +1,96 @@
+{
+ "version": "administracion-0.1",
+ "fuente": "Diseño Curricular de Educación Secundaria Orientada, Santa Fe (Res. 2630/14, Anexo III), Ciclo Orientado, orientación Economía y Administración, 4.º año, Administración.",
+ "espacios": [
+  {
+   "id": "administracion",
+   "nombre": "Administración",
+   "habilitado": true,
+   "modalidades": [
+    "orientada"
+   ]
+  }
+ ],
+ "contenidos": {
+  "administracion": [
+   {
+    "id": "a1",
+    "eje": "Habilidades gerenciales necesarias para la administración estratégica",
+    "titulo": "Liderazgo y cultura organizacional",
+    "activo": true,
+    "clase": "adm-4-01",
+    "desglose": [
+     "Autoridad y liderazgo",
+     "Estilos de liderazgo: autoritario, democrático y liberal",
+     "Liderazgo situacional: dirigir, entrenar, apoyar y delegar",
+     "Cultura organizacional, sus niveles y el sentido de pertenencia"
+    ]
+   },
+   {
+    "id": "a2",
+    "eje": "Habilidades gerenciales necesarias para la administración estratégica",
+    "titulo": "Nuevas habilidades gerenciales",
+    "activo": false,
+    "leyenda": "En construcción",
+    "clase": "adm-4-02",
+    "desglose": [
+     "Negociación y manejo del conflicto",
+     "Coaching y empoderamiento",
+     "Gestión de la diversidad",
+     "Habilidades comunicacionales"
+    ]
+   },
+   {
+    "id": "a3",
+    "eje": "Lógicas organizacionales para alcanzar posiciones deseables",
+    "titulo": "La función gerencial y las estrategias para alcanzar posiciones deseables",
+    "activo": false,
+    "leyenda": "En construcción",
+    "clase": "adm-4-03",
+    "desglose": [
+     "La función gerencial",
+     "Análisis del entorno y del negocio",
+     "Estrategias competitivas según la estructura y la cultura"
+    ]
+   },
+   {
+    "id": "a4",
+    "eje": "Mercadeo para crear y entregar valor a los clientes internos y externos",
+    "titulo": "Comercialización e investigación de mercado",
+    "activo": false,
+    "leyenda": "En construcción",
+    "clase": "adm-4-04",
+    "desglose": [
+     "El subsistema de comercialización",
+     "Etapas de una investigación de mercado",
+     "Segmentos de mercado, necesidades y deseos"
+    ]
+   },
+   {
+    "id": "a5",
+    "eje": "Mercadeo para crear y entregar valor a los clientes internos y externos",
+    "titulo": "El marketing y su planificación",
+    "activo": false,
+    "leyenda": "En construcción",
+    "clase": "adm-4-05",
+    "desglose": [
+     "Creatividad e innovación",
+     "Estrategias de producto, precio, distribución y comunicación",
+     "Relaciones duraderas con los clientes"
+    ]
+   },
+   {
+    "id": "a6",
+    "eje": "Mercadeo para crear y entregar valor a los clientes internos y externos",
+    "titulo": "Ventas y atención al cliente",
+    "activo": false,
+    "leyenda": "En construcción",
+    "clase": "adm-4-06",
+    "desglose": [
+     "La importancia de las ventas",
+     "Técnicas de atención y servicio al cliente"
+    ]
+   }
+  ]
+ }
+}

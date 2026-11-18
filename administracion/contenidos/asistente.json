@@ -1,0 +1,268 @@
+{
+ "descripcion": "Contenido del asistente de Administración (sin IA). Revisar con docente de Administración antes de usar con estudiantes.",
+ "materia": "Administración",
+ "ejemplos": "\"liderazgo\" o \"cultura organizacional\"",
+ "palabras": [
+  {
+   "palabra": "Autoridad",
+   "definicion": "Derecho a tomar ciertas decisiones que da un cargo dentro de una organización.",
+   "formas": [
+    "autoridades",
+    "cargo"
+   ]
+  },
+  {
+   "palabra": "Liderazgo",
+   "definicion": "Capacidad de influir en otras personas para que quieran trabajar por un objetivo común.",
+   "formas": [
+    "lider",
+    "liderar",
+    "lideres",
+    "lidera"
+   ]
+  },
+  {
+   "palabra": "Influir",
+   "definicion": "Lograr que otras personas quieran hacer algo, sin obligarlas.",
+   "formas": [
+    "influencia",
+    "influye"
+   ]
+  },
+  {
+   "palabra": "Estilo de liderazgo",
+   "definicion": "Manera habitual en que alguien toma decisiones, da indicaciones y se relaciona con su equipo.",
+   "formas": [
+    "estilo",
+    "estilos",
+    "estilos de liderazgo"
+   ]
+  },
+  {
+   "palabra": "Autoritario",
+   "definicion": "Estilo de liderazgo en el que quien lidera decide sin consultar y da órdenes. También se lo llama autocrático.",
+   "formas": [
+    "autocratico",
+    "autoritaria"
+   ]
+  },
+  {
+   "palabra": "Democrático",
+   "definicion": "Estilo de liderazgo en el que el grupo participa de las decisiones y quien lidera orienta. También se lo llama participativo.",
+   "formas": [
+    "democratico",
+    "participativo",
+    "democratica"
+   ]
+  },
+  {
+   "palabra": "Liberal",
+   "definicion": "Estilo de liderazgo en el que quien lidera casi no interviene y deja que cada persona decida. También se lo llama laissez-faire, \"dejar hacer\".",
+   "formas": [
+    "laissez-faire",
+    "laissez faire",
+    "lesefer"
+   ]
+  },
+  {
+   "palabra": "Liderazgo situacional",
+   "definicion": "Modelo de Hersey y Blanchard: quien lidera elige cuánto dirige y cuánto apoya según lo que sabe y siente cada persona en cada tarea.",
+   "formas": [
+    "situacional",
+    "hersey",
+    "blanchard"
+   ]
+  },
+  {
+   "palabra": "Dirigir",
+   "definicion": "Decir qué hay que hacer, cómo, cuándo y con qué, y controlar que salga bien. También es el nombre del estilo para quien recién empieza una tarea.",
+   "formas": [
+    "direccion",
+    "dirige"
+   ]
+  },
+  {
+   "palabra": "Apoyar",
+   "definicion": "Escuchar, animar, explicar el porqué y hacer participar a la persona. También es el nombre del estilo para quien sabe hacer la tarea pero duda.",
+   "formas": [
+    "apoyo",
+    "apoya"
+   ]
+  },
+  {
+   "palabra": "Entrenar",
+   "definicion": "Estilo con mucha dirección y mucho apoyo, para quien ya aprendió algo de la tarea pero se desanima.",
+   "formas": [
+    "entrenamiento"
+   ]
+  },
+  {
+   "palabra": "Delegar",
+   "definicion": "Dejar una tarea en manos de quien la domina y tiene confianza para hacerla.",
+   "formas": [
+    "delega",
+    "delegacion"
+   ]
+  },
+  {
+   "palabra": "Nivel de desarrollo",
+   "definicion": "Combinación de cuánto sabe una persona hacer una tarea y cuántas ganas y confianza tiene. Depende de la tarea.",
+   "formas": [
+    "nivel",
+    "niveles",
+    "niveles de desarrollo",
+    "competencia",
+    "compromiso"
+   ]
+  },
+  {
+   "palabra": "Cultura organizacional",
+   "definicion": "Formas de pensar, de actuar y de relacionarse que comparten las personas de una organización.",
+   "formas": [
+    "cultura",
+    "cultura de la organizacion"
+   ]
+  },
+  {
+   "palabra": "Artefactos",
+   "definicion": "Lo que se ve de una cultura: la ropa, el lugar, los saludos, los rituales, la forma de hablar.",
+   "formas": [
+    "artefacto",
+    "conductas",
+    "lo que se ve"
+   ]
+  },
+  {
+   "palabra": "Valores declarados",
+   "definicion": "Lo que una organización dice que le importa: carteles, reglamentos, discursos.",
+   "formas": [
+    "valores",
+    "valor declarado",
+    "lo que se dice"
+   ]
+  },
+  {
+   "palabra": "Supuestos básicos",
+   "definicion": "Creencias tan compartidas en una organización que nadie las discute. Son el nivel más profundo de la cultura.",
+   "formas": [
+    "supuestos",
+    "supuesto",
+    "lo que se da por hecho"
+   ]
+  },
+  {
+   "palabra": "Sentido de pertenencia",
+   "definicion": "Sensación de ser parte de una organización y de que también es propia.",
+   "formas": [
+    "pertenencia"
+   ]
+  }
+ ],
+ "temas": [
+  {
+   "id": "t-a1-1",
+   "clase": "adm-4-01",
+   "capsula": "c1",
+   "boton": "Autoridad y liderazgo",
+   "otra_manera": "Pensá en un curso de la escuela. Quien es delegado o delegada tiene un lugar formal para hablar con la dirección: eso se parece a la autoridad. Pero a veces el curso le hace caso a otra persona, que sin cargo convence al resto. Eso es liderazgo: influir para que los demás quieran hacer algo.",
+   "vida_real": "En un equipo, quien tiene el cargo puede armar la lista. Si además logra que el grupo quiera entrenar, también lidera.",
+   "claves": [
+    "autoridad",
+    "liderazgo",
+    "cargo",
+    "influir",
+    "influencia",
+    "mandar"
+   ],
+   "parte": "Parte 1"
+  },
+  {
+   "id": "t-a1-2",
+   "clase": "adm-4-01",
+   "capsula": "c1",
+   "boton": "Los tres estilos de Lewin",
+   "otra_manera": "Para recordarlos, preguntate quién decide. Si decide una sola persona, es autoritario. Si decide el grupo con alguien que orienta, es democrático. Si no decide nadie y cada uno hace lo suyo, es liberal.",
+   "vida_real": "En un grupo de trabajo práctico: alguien reparte todo sin preguntar, alguien propone y votan, o nadie organiza nada.",
+   "claves": [
+    "autoritario",
+    "democratico",
+    "liberal",
+    "lewin",
+    "estilo",
+    "estilos",
+    "laissez"
+   ],
+   "parte": "Parte 1"
+  },
+  {
+   "id": "t-a1-3",
+   "clase": "adm-4-01",
+   "capsula": "c2",
+   "boton": "Los cuatro estilos del liderazgo situacional",
+   "otra_manera": "Imaginá dos perillas: una para cuánto dirigís y otra para cuánto apoyás. Las dos altas: entrenar. Solo dirección alta: dirigir. Solo apoyo alto: apoyar. Las dos bajas: delegar.",
+   "vida_real": "Como cuando alguien te enseñó a andar en bici: primero te sostenían, después te alentaban, más tarde te acompañaban sin hablar y al final te dejaban ir.",
+   "claves": [
+    "dirigir",
+    "entrenar",
+    "apoyar",
+    "delegar",
+    "situacional",
+    "hersey",
+    "blanchard",
+    "plano"
+   ],
+   "parte": "Parte 2"
+  },
+  {
+   "id": "t-a1-4",
+   "clase": "adm-4-01",
+   "capsula": "c2",
+   "boton": "Cómo saber qué estilo usar",
+   "otra_manera": "Hacete dos preguntas sobre la persona en esa tarea: ¿cuánto sabe? y ¿cómo se siente? Si sabe poco y tiene ganas, dirigí. Si sabe algo y se desanima, entrená. Si sabe pero duda, apoyá. Si sabe y tiene confianza, delegá.",
+   "vida_real": "La misma persona puede necesitar estilos distintos: alguien que estampa remeras sin ayuda puede estar recién empezando a responder mensajes.",
+   "claves": [
+    "nivel",
+    "desarrollo",
+    "competencia",
+    "compromiso",
+    "tarea",
+    "conviene"
+   ],
+   "parte": "Parte 2"
+  },
+  {
+   "id": "t-a1-5",
+   "clase": "adm-4-01",
+   "capsula": "c3",
+   "boton": "Los tres niveles de la cultura",
+   "otra_manera": "Pensá en una casa. Lo que se ve es cómo está pintada y decorada. Lo que se dice son las reglas que están pegadas en la heladera. Lo que se da por hecho son las costumbres que nadie anota, como quién se sienta en cada silla.",
+   "vida_real": "En un club: la camiseta se ve; el reglamento se dice; que los errores se cuentan sin miedo se da por hecho.",
+   "claves": [
+    "cultura",
+    "niveles",
+    "iceberg",
+    "artefactos",
+    "valores",
+    "supuestos",
+    "schein"
+   ],
+   "parte": "Parte 3"
+  },
+  {
+   "id": "t-a1-6",
+   "clase": "adm-4-01",
+   "capsula": "c3",
+   "boton": "Quien lidera y la cultura",
+   "otra_manera": "Un equipo aprende más de lo que ve que de lo que escucha. Si quien lidera dice \"acá todos opinan\" pero decide sin consultar, el grupo aprende que opinar no sirve. Para cambiar una costumbre hay que actuar distinto y repetirlo.",
+   "vida_real": "Cuando lo que se dice y lo que se hace coinciden, las personas confían y se sienten parte: eso es el sentido de pertenencia.",
+   "claves": [
+    "pertenencia",
+    "lider",
+    "costumbre",
+    "coincide",
+    "cambiar"
+   ],
+   "parte": "Parte 3"
+  }
+ ]
+}

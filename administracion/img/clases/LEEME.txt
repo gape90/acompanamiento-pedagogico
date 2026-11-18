@@ -1,0 +1,19 @@
+IMÁGENES DE LAS CLASES · ADMINISTRACIÓN
+=======================================
+Nombre de cada archivo: código de la clase + tema (ej.: adm-4-01-plano.svg).
+Los esquemas que tienen versión para celular terminan en -movil.svg.
+Si una imagen todavía no está en esta carpeta, la clase sigue funcionando: las fichas se muestran sin retrato.
+Criterio: una imagen solo si ayuda a comprender lo que YA está en la clase. Nunca suma contenidos nuevos.
+En esta materia no se usan fotos: solo esquemas propios e ilustraciones elaboradas para la clase.
+
+Clase 1. Ilustraciones de Gabi (ChatGPT), en .webp, y esquemas propios en .svg:
+  adm-4-01-autoridad.webp                  escena de autoridad: la capitana señala la estrategia (parte 1)
+  adm-4-01-liderazgo.webp                  escena de liderazgo (parte 1)
+  adm-4-01-autoritario/democratico/liberal.webp   fichas de los tres estilos: las personas que coordinan en el taller de 1939 (parte 1)
+  adm-4-01-exp-*.webp                      piezas del experimento: mesa trabajando, mesa distraída y las tres personas que coordinan (parte 1)
+  adm-4-01-plano(.svg / -movil.svg)        plano animado de los cuatro estilos (parte 2)
+  adm-4-01-nivel1..4.webp                  la misma persona en los cuatro niveles; se usan dentro de adm-4-01-niveles(.svg / -movil.svg) (parte 2)
+  adm-4-01-caso-tomi/lara/nico/sofi.webp   retratos de "Elegí el estilo" (parte 2)
+  adm-4-01-iceberg.webp                    iceberg; se usa dentro de adm-4-01-iceberg(.svg / -movil.svg), con los rótulos animados (parte 3)
+  adm-4-01-escena.webp                     sala del club; se usa dentro de adm-4-01-escena.svg, con los textos del cartel, el reglamento y la pizarra (parte 3)
+  adm-4-01-org-*.webp                      íconos de las tarjetas que giran (parte 3)
