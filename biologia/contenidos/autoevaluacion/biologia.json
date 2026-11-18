@@ -1,0 +1,647 @@
+{
+ "espacio": "biologia",
+ "pares": {
+  "b1|b2": [
+   {
+    "tipo": "mc",
+    "pregunta": "¿Qué relación hay entre los glúcidos de la clase 1 y los nutrientes energéticos de la clase 2?",
+    "opciones": [
+     "Los glúcidos son uno de los nutrientes energéticos",
+     "No tienen ninguna relación",
+     "Los glúcidos son nutrientes reguladores",
+     "Los glúcidos solo están en las plantas"
+    ],
+    "correcta": 0,
+    "explicacion": "Los glúcidos, como la glucosa y el almidón, dan energía; por eso son energéticos, igual que los lípidos."
+   },
+   {
+    "tipo": "vf",
+    "texto": "La glucosa que fabrican las plantas por fotosíntesis puede terminar en la respiración celular de tus células.",
+    "respuesta": true,
+    "explicacion": "Las plantas fabrican la glucosa, vos la comés, se digiere, viaja por la sangre y tus células la descomponen con oxígeno para obtener energía."
+   },
+   {
+    "tipo": "mc",
+    "pregunta": "¿Por qué los nutrientes estructurales se relacionan con el anabolismo?",
+    "opciones": [
+     "Porque las proteínas se usan para construir y reparar el cuerpo",
+     "Porque liberan mucha energía al descomponerse",
+     "Porque son lo mismo que el ATP",
+     "Porque no los usa ninguna célula"
+    ],
+    "correcta": 0,
+    "explicacion": "Armar tejidos con aminoácidos es construir moléculas grandes: anabolismo."
+   },
+   {
+    "tipo": "vf",
+    "texto": "Un organismo es un sistema cerrado: no intercambia materia con el ambiente cuando se nutre.",
+    "respuesta": false,
+    "explicacion": "Es un sistema abierto: al nutrirse, intercambia materia y energía con el ambiente."
+   },
+   {
+    "tipo": "mc",
+    "pregunta": "Las plantas hacen fotosíntesis. ¿También hacen respiración celular?",
+    "opciones": [
+     "Sí, sus células la hacen todo el tiempo",
+     "No, porque ya fabrican su alimento",
+     "Solo cuando hay mucha luz",
+     "Solo de noche"
+    ],
+    "correcta": 0,
+    "explicacion": "Las células de las plantas usan oxígeno para sacar energía de la glucosa, de día y de noche."
+   }
+  ],
+  "b1|b3": [
+   {
+    "tipo": "mc",
+    "pregunta": "¿Para qué usan las células el oxígeno que toma el sistema respiratorio?",
+    "opciones": [
+     "Para la respiración celular",
+     "Para la digestión química",
+     "Para la absorción en el intestino",
+     "Para la fotosíntesis"
+    ],
+    "correcta": 0,
+    "explicacion": "En las mitocondrias, el oxígeno permite obtener mucha energía de la glucosa."
+   },
+   {
+    "tipo": "vf",
+    "texto": "El dióxido de carbono que sale en la espiración se produce en los pulmones.",
+    "respuesta": false,
+    "explicacion": "Se produce en la respiración celular de todas las células; la sangre lo lleva a los pulmones."
+   },
+   {
+    "tipo": "mc",
+    "pregunta": "Los aminoácidos que absorbe el intestino llegan a una célula, que los une para armar una proteína. ¿Qué tipo de reacción es?",
+    "opciones": [
+     "Anabolismo",
+     "Catabolismo",
+     "Glucólisis",
+     "Intercambio gaseoso"
+    ],
+    "correcta": 0,
+    "explicacion": "Armar una molécula grande a partir de otras más chicas es anabolismo y gasta energía."
+   },
+   {
+    "tipo": "vf",
+    "texto": "Respirar más rápido al hacer ejercicio ayuda a mantener la homeostasis.",
+    "respuesta": true,
+    "explicacion": "Trae más oxígeno y saca el dióxido de carbono extra."
+   },
+   {
+    "tipo": "mc",
+    "pregunta": "¿Qué biomoléculas de la clase 1 se absorben en el intestino delgado ya digeridas?",
+    "opciones": [
+     "Azúcares simples, aminoácidos, ácidos grasos y glicerol",
+     "Proteínas enteras",
+     "Solo el almidón entero",
+     "Ninguna: se absorben enteras"
+    ],
+    "correcta": 0,
+    "explicacion": "La digestión parte las moléculas grandes en sus unidades, que sí pueden pasar a la sangre."
+   }
+  ],
+  "b2|b3": [
+   {
+    "tipo": "mc",
+    "pregunta": "¿En qué sistema empieza la nutrición, después de la alimentación?",
+    "opciones": [
+     "En el sistema digestivo",
+     "En el sistema respiratorio",
+     "En el sistema excretor",
+     "En la piel"
+    ],
+    "correcta": 0,
+    "explicacion": "La digestión es el primer paso de la nutrición."
+   },
+   {
+    "tipo": "vf",
+    "texto": "Las proteínas recién empiezan a digerirse en el intestino grueso.",
+    "respuesta": false,
+    "explicacion": "Empiezan a digerirse en el estómago, con el jugo gástrico, y la digestión termina en el intestino delgado."
+   },
+   {
+    "tipo": "mc",
+    "pregunta": "¿Qué sistema aporta el oxígeno que las células usan para obtener energía de los nutrientes?",
+    "opciones": [
+     "El respiratorio",
+     "El digestivo",
+     "El excretor",
+     "Ninguno"
+    ],
+    "correcta": 0,
+    "explicacion": "El oxígeno entra en los alvéolos y la sangre lo lleva a las células."
+   },
+   {
+    "tipo": "vf",
+    "texto": "Una persona celíaca puede alimentarse bien y aun así tener una nutrición alterada.",
+    "respuesta": true,
+    "explicacion": "El problema está en la absorción, que es parte de la nutrición."
+   },
+   {
+    "tipo": "mc",
+    "pregunta": "¿Qué grupo de nutrientes se digiere con ayuda de la bilis?",
+    "opciones": [
+     "Los lípidos",
+     "Las vitaminas",
+     "El agua",
+     "Los minerales"
+    ],
+    "correcta": 0,
+    "explicacion": "La bilis, producida por el hígado, ayuda a digerir las grasas."
+   }
+  ],
+  "b1|b4": [
+   {
+    "tipo": "mc",
+    "pregunta": "¿De dónde viene el dióxido de carbono que la sangre lleva a los pulmones?",
+    "opciones": [
+     "De la respiración celular en todas las células",
+     "Del aire que entra por la nariz",
+     "De la digestión en el estómago",
+     "Lo fabrica el corazón"
+    ],
+    "correcta": 0,
+    "explicacion": "Las células lo producen en la respiración celular y la sangre lo recoge en los capilares."
+   },
+   {
+    "tipo": "vf",
+    "texto": "La urea se forma cuando el cuerpo descompone proteínas, que es un ejemplo de catabolismo.",
+    "respuesta": true,
+    "explicacion": "Descomponer moléculas grandes es catabolismo; la urea es uno de sus desechos."
+   },
+   {
+    "tipo": "mc",
+    "pregunta": "Los riñones controlan cuánta agua hay en el medio interno. ¿Qué característica de los seres vivos de la clase 1 es esa?",
+    "opciones": [
+     "La homeostasis",
+     "La fotosíntesis",
+     "La glucólisis",
+     "La biosíntesis de proteínas"
+    ],
+    "correcta": 0,
+    "explicacion": "Mantener estable el medio interno es la homeostasis."
+   }
+  ],
+  "b2|b4": [
+   {
+    "tipo": "mc",
+    "pregunta": "¿Qué paso de la nutrición de la clase 2 hace el sistema excretor?",
+    "opciones": [
+     "Eliminar los desechos",
+     "Partir los nutrientes",
+     "Llevar los nutrientes por la sangre",
+     "Elegir los alimentos"
+    ],
+    "correcta": 0,
+    "explicacion": "El excretor saca del cuerpo los desechos que producen las células."
+   },
+   {
+    "tipo": "vf",
+    "texto": "El agua, que no aporta energía, es la que permite que la sangre transporte sustancias.",
+    "respuesta": true,
+    "explicacion": "El plasma es sobre todo agua, y en él viajan disueltas muchas sustancias."
+   },
+   {
+    "tipo": "mc",
+    "pregunta": "¿Qué mineral de los alimentos hace falta para que los glóbulos rojos lleven oxígeno?",
+    "opciones": [
+     "El hierro",
+     "El calcio",
+     "El sodio",
+     "El yodo"
+    ],
+    "correcta": 0,
+    "explicacion": "El hierro forma parte de la hemoglobina. Por eso su falta es una causa frecuente de anemia."
+   }
+  ],
+  "b3|b4": [
+   {
+    "tipo": "mc",
+    "pregunta": "¿Dónde pasa el oxígeno del aire a la sangre que después reparte el corazón?",
+    "opciones": [
+     "En los capilares de los alvéolos",
+     "En el ventrículo izquierdo",
+     "En las venas cavas",
+     "En el intestino delgado"
+    ],
+    "correcta": 0,
+    "explicacion": "Es la circulación menor: la sangre carga oxígeno en los pulmones y vuelve al corazón."
+   },
+   {
+    "tipo": "vf",
+    "texto": "La materia fecal que forma el intestino grueso es un producto de la excreción.",
+    "respuesta": false,
+    "explicacion": "Son restos de alimento que no entraron a las células: su salida es egestión."
+   },
+   {
+    "tipo": "mc",
+    "pregunta": "Los nutrientes absorbidos en el intestino delgado, ¿cómo llegan a una célula del brazo?",
+    "opciones": [
+     "Por la sangre, a través del sistema circulatorio",
+     "Por el sistema respiratorio",
+     "Por los uréteres",
+     "Pasan directamente, sin transporte"
+    ],
+    "correcta": 0,
+    "explicacion": "La sangre los lleva por las arterias hasta los capilares del brazo."
+   }
+  ],
+  "b1|b5": [
+   {
+    "tipo": "mc",
+    "pregunta": "¿De dónde sale la energía que usan la actina y la miosina para contraer el músculo?",
+    "opciones": [
+     "Del ATP",
+     "Del colágeno",
+     "Del calcio del hueso",
+     "Del cartílago"
+    ],
+    "correcta": 0,
+    "explicacion": "El ATP es la \"pila recargable\" que se carga en la respiración celular."
+   },
+   {
+    "tipo": "vf",
+    "texto": "El colágeno del hueso es una proteína.",
+    "respuesta": true,
+    "explicacion": "Es una de las biomoléculas orgánicas que viste en la clase 1."
+   },
+   {
+    "tipo": "vf",
+    "texto": "El hueso tiene células vivas.",
+    "respuesta": true,
+    "explicacion": "Se llaman osteocitos."
+   }
+  ],
+  "b4|b5": [
+   {
+    "tipo": "mc",
+    "pregunta": "¿Dónde se fabrican los glóbulos rojos que transportan el oxígeno?",
+    "opciones": [
+     "En la médula ósea roja",
+     "En el corazón",
+     "En los riñones",
+     "En los pulmones"
+    ],
+    "correcta": 0,
+    "explicacion": "Está en el interior de algunos huesos."
+   },
+   {
+    "tipo": "vf",
+    "texto": "El corazón está formado por músculo esquelético.",
+    "respuesta": false,
+    "explicacion": "Está formado por músculo cardíaco, que es involuntario."
+   },
+   {
+    "tipo": "vf",
+    "texto": "Los músculos que trabajan reciben más sangre.",
+    "respuesta": true,
+    "explicacion": "Necesitan más oxígeno y glucosa."
+   }
+  ],
+  "b2|b5": [
+   {
+    "tipo": "mc",
+    "pregunta": "¿Qué mineral de los alimentos le da dureza a los huesos?",
+    "opciones": [
+     "El calcio",
+     "El hierro",
+     "El yodo",
+     "El sodio"
+    ],
+    "correcta": 0,
+    "explicacion": "Junto con el fósforo, forma las sales minerales del hueso."
+   },
+   {
+    "tipo": "vf",
+    "texto": "Las proteínas de los alimentos son nutrientes estructurales, que sirven para formar músculos.",
+    "respuesta": true,
+    "explicacion": "Los aminoácidos se usan para fabricar proteínas como la actina y la miosina."
+   },
+   {
+    "tipo": "vf",
+    "texto": "La leche y sus derivados aportan calcio.",
+    "respuesta": true,
+    "explicacion": "El calcio le da dureza al hueso."
+   }
+  ],
+  "b5|b6": [
+   {
+    "tipo": "mc",
+    "pregunta": "¿Qué neurona lleva la orden de contraerse al bíceps?",
+    "opciones": [
+     "Una neurona motora",
+     "Una neurona sensitiva",
+     "Una célula de la glía",
+     "Un receptor de la piel"
+    ],
+    "correcta": 0,
+    "explicacion": "Las motoras llevan órdenes a los músculos, con el neurotransmisor acetilcolina."
+   },
+   {
+    "tipo": "vf",
+    "texto": "El músculo cardíaco está controlado por el sistema nervioso autónomo.",
+    "respuesta": true,
+    "explicacion": "El simpático lo acelera y el parasimpático lo hace más lento."
+   },
+   {
+    "tipo": "vf",
+    "texto": "En un acto reflejo se contrae un músculo esquelético.",
+    "respuesta": true,
+    "explicacion": "Por ejemplo, el del brazo que aparta la mano de la olla."
+   }
+  ],
+  "b4|b6": [
+   {
+    "tipo": "mc",
+    "pregunta": "Durante un susto, ¿qué hace el sistema simpático con el corazón?",
+    "opciones": [
+     "Lo acelera",
+     "Lo hace más lento",
+     "Lo detiene",
+     "No lo cambia"
+    ],
+    "correcta": 0,
+    "explicacion": "Así llega más sangre con oxígeno a los músculos."
+   },
+   {
+    "tipo": "vf",
+    "texto": "El tronco encefálico controla los latidos del corazón y la respiración.",
+    "respuesta": true,
+    "explicacion": "Funciona sin que lo pienses."
+   },
+   {
+    "tipo": "vf",
+    "texto": "En reposo, el parasimpático hace que el corazón lata más despacio.",
+    "respuesta": true,
+    "explicacion": "El simpático, en cambio, lo acelera."
+   }
+  ],
+  "b1|b6": [
+   {
+    "tipo": "mc",
+    "pregunta": "¿Qué sistema detecta rápidamente un cambio del ambiente y ordena una respuesta?",
+    "opciones": [
+     "El sistema nervioso",
+     "El sistema excretor",
+     "El sistema digestivo",
+     "El sistema óseo"
+    ],
+    "correcta": 0,
+    "explicacion": "Contribuye a mantener la homeostasis de la clase 1."
+   },
+   {
+    "tipo": "vf",
+    "texto": "Las neuronas tienen núcleo.",
+    "respuesta": true,
+    "explicacion": "El núcleo está en el cuerpo celular, como en las demás células del cuerpo."
+   },
+   {
+    "tipo": "vf",
+    "texto": "Las neuronas obtienen energía con la respiración celular.",
+    "respuesta": true,
+    "explicacion": "Como todas las células, en las mitocondrias."
+   }
+  ],
+  "b6|b7": [
+   {
+    "tipo": "mc",
+    "pregunta": "¿Qué parte del encéfalo fabrica hormonas y controla la hipófisis?",
+    "opciones": [
+     "El hipotálamo",
+     "El cerebelo",
+     "La médula espinal",
+     "El tronco encefálico"
+    ],
+    "correcta": 0,
+    "explicacion": "Es donde se unen el sistema nervioso y el endocrino."
+   },
+   {
+    "tipo": "vf",
+    "texto": "Los neurotransmisores y las hormonas viajan por la sangre.",
+    "respuesta": false,
+    "explicacion": "Solo las hormonas: los neurotransmisores cruzan el espacio sináptico."
+   },
+   {
+    "tipo": "vf",
+    "texto": "El sistema nervioso ordena a las suprarrenales liberar adrenalina.",
+    "respuesta": true,
+    "explicacion": "Los dos sistemas trabajan juntos en un susto."
+   }
+  ],
+  "b3|b7": [
+   {
+    "tipo": "mc",
+    "pregunta": "¿Qué órgano fabrica a la vez jugo digestivo e insulina?",
+    "opciones": [
+     "El páncreas",
+     "El hígado",
+     "El estómago",
+     "La tiroides"
+    ],
+    "correcta": 0,
+    "explicacion": "El jugo va al intestino y la insulina, a la sangre."
+   },
+   {
+    "tipo": "vf",
+    "texto": "El hígado guarda glucosa como glucógeno.",
+    "respuesta": true,
+    "explicacion": "La libera cuando el glucagón se lo indica."
+   },
+   {
+    "tipo": "vf",
+    "texto": "La insulina va al intestino junto con el jugo pancreático.",
+    "respuesta": false,
+    "explicacion": "La insulina va a la sangre; el jugo pancreático, al intestino."
+   }
+  ],
+  "b1|b7": [
+   {
+    "tipo": "mc",
+    "pregunta": "Mantener la glucosa de la sangre en un nivel normal es un ejemplo de…",
+    "opciones": [
+     "Homeostasis",
+     "Metamorfosis",
+     "Digestión",
+     "Locomoción"
+    ],
+    "correcta": 0,
+    "explicacion": "Es el equilibrio del medio interno que viste en la clase 1."
+   },
+   {
+    "tipo": "vf",
+    "texto": "La glucosa que regula la insulina es un glúcido.",
+    "respuesta": true,
+    "explicacion": "Es uno de los glúcidos de la clase 1, la principal fuente de energía de las células."
+   },
+   {
+    "tipo": "vf",
+    "texto": "La regulación de la glucosa ayuda a mantener la homeostasis.",
+    "respuesta": true,
+    "explicacion": "Mantiene estable el medio interno."
+   }
+  ],
+  "b3|b5": [
+   {
+    "tipo": "mc",
+    "pregunta": "¿Qué tipo de músculo empuja el alimento por el tubo digestivo?",
+    "opciones": [
+     "El liso",
+     "El esquelético",
+     "El cardíaco",
+     "Los tendones"
+    ],
+    "correcta": 0,
+    "explicacion": "Es involuntario y forma las paredes del tubo digestivo."
+   },
+   {
+    "tipo": "vf",
+    "texto": "El diafragma, que interviene en la respiración, es un músculo.",
+    "respuesta": true,
+    "explicacion": "Al contraerse baja y hace entrar el aire."
+   },
+   {
+    "tipo": "mc",
+    "pregunta": "¿Qué protegen las costillas?",
+    "opciones": [
+     "El corazón y los pulmones",
+     "El estómago y el intestino",
+     "Los riñones y la vejiga",
+     "El encéfalo"
+    ],
+    "correcta": 0,
+    "explicacion": "Son huesos planos que forman la caja torácica."
+   }
+  ],
+  "b2|b6": [
+   {
+    "tipo": "mc",
+    "pregunta": "¿Qué neurotransmisor se libera cuando comés algo rico teniendo hambre?",
+    "opciones": [
+     "La dopamina",
+     "La insulina",
+     "La urea",
+     "La hemoglobina"
+    ],
+    "correcta": 0,
+    "explicacion": "Es el neurotransmisor del sistema de recompensa."
+   },
+   {
+    "tipo": "vf",
+    "texto": "Las neuronas usan glucosa para obtener energía.",
+    "respuesta": true,
+    "explicacion": "Como todas las células, la usan en la respiración celular."
+   },
+   {
+    "tipo": "vf",
+    "texto": "La alimentación puede ser un consumo problemático.",
+    "respuesta": true,
+    "explicacion": "La Ley 26.934 la incluye entre las conductas que pueden volverse compulsivas."
+   }
+  ],
+  "b3|b6": [
+   {
+    "tipo": "mc",
+    "pregunta": "¿Qué parte del sistema autónomo favorece la digestión?",
+    "opciones": [
+     "El parasimpático",
+     "El simpático",
+     "El somático",
+     "La médula ósea"
+    ],
+    "correcta": 0,
+    "explicacion": "Actúa en reposo."
+   },
+   {
+    "tipo": "vf",
+    "texto": "El tronco encefálico controla la respiración.",
+    "respuesta": true,
+    "explicacion": "Funciona aunque no pienses en eso."
+   },
+   {
+    "tipo": "vf",
+    "texto": "Ante un susto, la digestión se acelera.",
+    "respuesta": false,
+    "explicacion": "Se frena: el simpático prepara el cuerpo para reaccionar."
+   }
+  ],
+  "b2|b7": [
+   {
+    "tipo": "mc",
+    "pregunta": "¿Qué nutrientes hacen subir la glucosa de la sangre después de comer?",
+    "opciones": [
+     "Los hidratos de carbono",
+     "Las vitaminas",
+     "El agua",
+     "Las sales minerales"
+    ],
+    "correcta": 0,
+    "explicacion": "Al digerirse, liberan glucosa."
+   },
+   {
+    "tipo": "vf",
+    "texto": "La tiroides necesita yodo de los alimentos.",
+    "respuesta": true,
+    "explicacion": "Sin yodo no fabrica suficientes hormonas."
+   },
+   {
+    "tipo": "vf",
+    "texto": "La insulina baja la glucosa de la sangre.",
+    "respuesta": true,
+    "explicacion": "Hace que las células la tomen y que el hígado la guarde."
+   }
+  ],
+  "b4|b7": [
+   {
+    "tipo": "mc",
+    "pregunta": "¿Por dónde viajan las hormonas hasta sus órganos blanco?",
+    "opciones": [
+     "Por la sangre",
+     "Por las neuronas",
+     "Por los uréteres",
+     "Por el tubo digestivo"
+    ],
+    "correcta": 0,
+    "explicacion": "El sistema circulatorio las lleva a todo el cuerpo."
+   },
+   {
+    "tipo": "vf",
+    "texto": "La adrenalina hace que el corazón lata más rápido.",
+    "respuesta": true,
+    "explicacion": "Prepara el cuerpo ante un peligro."
+   },
+   {
+    "tipo": "vf",
+    "texto": "Cuando la glucosa de la sangre es muy alta, puede aparecer en la orina.",
+    "respuesta": true,
+    "explicacion": "Los riñones no llegan a reabsorberla toda."
+   }
+  ],
+  "b5|b7": [
+   {
+    "tipo": "mc",
+    "pregunta": "Al hacer ejercicio, ¿qué pasa con la glucosa de la sangre?",
+    "opciones": [
+     "Baja, porque los músculos la usan",
+     "Sube, porque los músculos la fabrican",
+     "No cambia",
+     "Se transforma en calcio"
+    ],
+    "correcta": 0,
+    "explicacion": "Entonces el páncreas libera glucagón."
+   },
+   {
+    "tipo": "vf",
+    "texto": "La hormona del crecimiento la fabrica la hipófisis.",
+    "respuesta": true,
+    "explicacion": "Interviene en el crecimiento de los huesos."
+   },
+   {
+    "tipo": "vf",
+    "texto": "El hígado puede liberar glucosa a la sangre.",
+    "respuesta": true,
+    "explicacion": "Lo hace cuando el glucagón se lo indica."
+   }
+  ]
+ }
+}
