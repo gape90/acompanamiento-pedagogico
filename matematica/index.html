@@ -48,7 +48,7 @@ function pintarContenidos() {
       const sel = e.seleccion.includes(c.id);
       return `<label class="contenido ${c.activo ? '' : 'inactivo'} ${sel ? 'sel' : ''}">
         <input type="checkbox" value="${c.id}" ${c.activo ? '' : 'disabled'} ${sel ? 'checked' : ''}>
-        <div><div class="t">${esc(c.titulo)}${c.activo ? '' : '<span class="pronto">En construcción</span>'}</div>
+        <div><div class="t">${esc(c.titulo)}${c.activo ? (c.en_construccion ? '<span class="pronto">En construcción</span>' : '') : '<span class="pronto">Próximamente</span>'}</div>
         <ul>${c.desglose.map(d => `<li>${esc(d)}</li>`).join('')}</ul></div></label>`;
     }).join('') + '</div>').join('');
   validar();

@@ -43,64 +43,69 @@
         "id": "b3",
         "eje": "Los sistemas y funciones de nutrición",
         "titulo": "Los sistemas digestivo y respiratorio",
-        "activo": false,
+        "activo": true,
         "clase": "bio-4-03",
         "desglose": [
           "Anatomía y fisiología del sistema digestivo",
           "Anatomía y fisiología del sistema respiratorio",
           "Funcionamiento normal y patológico"
-        ]
+        ],
+        "en_construccion": true
       },
       {
         "id": "b4",
         "eje": "Los sistemas y funciones de nutrición",
         "titulo": "Los sistemas circulatorio y excretor",
-        "activo": false,
+        "activo": true,
         "clase": "bio-4-04",
         "desglose": [
           "Anatomía y fisiología del sistema circulatorio",
           "Anatomía y fisiología del sistema excretor",
           "Integración de los cuatro sistemas de nutrición y homeostasis",
           "Funcionamiento normal y patológico"
-        ]
+        ],
+        "en_construccion": true
       },
       {
         "id": "b5",
         "eje": "El sistema osteo-artro-muscular",
         "titulo": "El sistema osteo-artro-muscular",
-        "activo": false,
+        "activo": true,
         "clase": "bio-4-05",
         "desglose": [
           "Huesos, músculos y articulaciones: estructura y clasificación",
           "Constitución química, celular y tisular",
           "Movimiento y locomoción",
           "Comparación entre seres vivos: adaptaciones y conexiones evolutivas"
-        ]
+        ],
+        "en_construccion": true
       },
       {
         "id": "b6",
         "eje": "Los sistemas de regulación y control",
         "titulo": "El sistema nervioso",
-        "activo": false,
+        "activo": true,
         "clase": "bio-4-06",
         "desglose": [
           "Sistema nervioso central, periférico y autónomo",
           "El tejido nervioso: origen, células y clasificación",
           "Impulso nervioso, sinapsis y neurotransmisores",
           "Salud: adicciones (abordaje conceptual)"
-        ]
+        ],
+        "en_construccion": true
       },
       {
         "id": "b7",
         "eje": "Los sistemas de regulación y control",
         "titulo": "El sistema endocrino y su relación con el nervioso",
-        "activo": false,
+        "activo": true,
         "clase": "bio-4-07",
         "desglose": [
           "Hormonas, glándulas y órganos blanco",
           "Retroalimentación y desequilibrios hormonales",
           "Organización del sistema neuroendocrino en vertebrados"
-        ]
+        ],
+        "en_construccion": true
       }
     ]
   }

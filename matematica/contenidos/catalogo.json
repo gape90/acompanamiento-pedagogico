@@ -44,98 +44,106 @@
         "id": "m3",
         "eje": "Números y operaciones",
         "titulo": "Radicales aritméticos",
-        "activo": false,
+        "activo": true,
         "clase": "mat-4-03",
         "desglose": [
           "Propiedades de las operaciones con radicales",
           "Transformar escrituras de un radical",
           "Argumentar sobre equivalencias"
-        ]
+        ],
+        "en_construccion": true
       },
       {
         "id": "m4",
         "eje": "Álgebra y funciones",
         "titulo": "Sucesiones aritméticas y geométricas",
-        "activo": false,
+        "activo": true,
         "clase": "mat-4-04",
         "desglose": [
           "Exploración de regularidades",
           "Sucesión aritmética: fórmula del término general",
           "Sucesión geométrica: fórmula del término general",
           "Producción de fórmulas"
-        ]
+        ],
+        "en_construccion": true
       },
       {
         "id": "m5",
         "eje": "Álgebra y funciones",
         "titulo": "Ecuación completa de segundo grado",
-        "activo": false,
+        "activo": true,
         "clase": "mat-4-05",
         "desglose": [
           "Completamiento de cuadrados",
           "Fórmula resolvente",
           "Discriminante y naturaleza de las soluciones"
-        ]
+        ],
+        "en_construccion": true
       },
       {
         "id": "m6",
         "eje": "Álgebra y funciones",
         "titulo": "Funciones polinómicas, racionales, exponenciales y logarítmicas",
-        "activo": false,
+        "activo": true,
         "clase": "mat-4-06",
         "desglose": [
           "Polinómicas incompletas de grado hasta 4",
           "Racionales f(x) = k/g(x)",
           "Exponenciales y logarítmicas",
           "Modelización"
-        ]
+        ],
+        "en_construccion": true
       },
       {
         "id": "m7",
         "eje": "Geometría y medida",
         "titulo": "Razones trigonométricas y circunferencia trigonométrica",
-        "activo": false,
+        "activo": true,
         "clase": "mat-4-07",
         "desglose": [
           "Seno y coseno de ángulos hasta un giro",
           "Ángulos de 30°, 45°, 60° y 90° y sus múltiplos"
-        ]
+        ],
+        "en_construccion": true
       },
       {
         "id": "m8",
         "eje": "Geometría y medida",
         "titulo": "Mediciones indirectas: teorema del seno y del coseno",
-        "activo": false,
+        "activo": true,
         "clase": "mat-4-08",
         "desglose": [
           "Triángulos diversos",
           "Teorema del seno",
           "Teorema del coseno"
-        ]
+        ],
+        "en_construccion": true
       },
       {
         "id": "m9",
         "eje": "Estadística y probabilidad",
         "titulo": "Medidas de dispersión",
-        "activo": false,
+        "activo": true,
         "clase": "mat-4-09",
         "desglose": [
           "Por qué no alcanzan las medidas de posición",
           "Varianza",
           "Desviación estándar"
-        ]
+        ],
+        "en_construccion": true
       },
       {
         "id": "m10",
         "eje": "Estadística y probabilidad",
         "titulo": "Probabilidades",
-        "activo": false,
+        "activo": true,
         "clase": "mat-4-10",
         "desglose": [
           "Sucesos excluyentes y no excluyentes",
           "Sucesos independientes y dependientes",
           "Probabilidad condicionada, total y de pruebas repetidas"
-        ]
+        ],
+        "en_construccion": true
       }
     ]
   }

@@ -43,7 +43,7 @@
         "id": "h3",
         "eje": "Crisis, Estado e industrialización",
         "titulo": "La crisis de 1929, la Segunda Guerra y la Argentina",
-        "activo": false,
+        "activo": true,
         "clase": "his-4-03",
         "desglose": [
           "Impacto de la crisis de 1929",
@@ -51,80 +51,87 @@
           "Cambios en el rol del Estado",
           "Industrialización sustitutiva de importaciones",
           "Cambios en el mundo social urbano"
-        ]
+        ],
+        "en_construccion": true
       },
       {
         "id": "h4",
         "eje": "Crisis, Estado e industrialización",
         "titulo": "El peronismo y los gobiernos populares latinoamericanos",
-        "activo": false,
+        "activo": true,
         "clase": "his-4-04",
         "desglose": [
           "Movilización de los sectores subalternos",
           "El empresariado industrial y el rol del Estado",
           "Planificación de la economía",
           "Democracia de masas"
-        ]
+        ],
+        "en_construccion": true
       },
       {
         "id": "h5",
         "eje": "Crisis, Estado e industrialización",
         "titulo": "Disputas por la distribución de la riqueza (1930-1955)",
-        "activo": false,
+        "activo": true,
         "clase": "his-4-05",
         "desglose": [
           "Sectores empresariales y movimiento obrero",
           "Mecanismos de intervención estatal"
-        ]
+        ],
+        "en_construccion": true
       },
       {
         "id": "h6",
         "eje": "El mundo de la posguerra",
         "titulo": "Tercer Mundo, No Alineados y Revolución Cubana",
-        "activo": false,
+        "activo": true,
         "clase": "his-4-06",
         "desglose": [
           "El Tercer Mundo y el Movimiento de los No Alineados",
           "Norte desarrollado y sur subdesarrollado",
           "Impacto de la Revolución Cubana en América Latina"
-        ]
+        ],
+        "en_construccion": true
       },
       {
         "id": "h7",
         "eje": "Inestabilidad y dictadura",
         "titulo": "Inestabilidad política y económica (1955-1983)",
-        "activo": false,
+        "activo": true,
         "clase": "his-4-07",
         "desglose": [
           "Proscripción del peronismo y golpes de Estado",
           "Onganía, el Cordobazo y la violencia política",
           "La última dictadura y el terrorismo de Estado",
           "La vuelta de la democracia"
-        ]
+        ],
+        "en_construccion": true
       },
       {
         "id": "h8",
         "eje": "Neoliberalismo y después",
         "titulo": "El modelo neoliberal en la Argentina y América Latina",
-        "activo": false,
+        "activo": true,
         "clase": "his-4-08",
         "desglose": [
           "Qué es el neoliberalismo",
           "Neoliberalismo y dictaduras: Chile y la Argentina",
           "Los años 90: neoliberalismo en democracia"
-        ]
+        ],
+        "en_construccion": true
       },
       {
         "id": "h9",
         "eje": "Neoliberalismo y después",
         "titulo": "La declinación del modelo neoliberal",
-        "activo": false,
+        "activo": true,
         "clase": "his-4-09",
         "desglose": [
           "La crisis de 2001 y la globalización financiera",
           "Nuevos actores sociales",
           "Nuevo rol del Estado e integración regional"
-        ]
+        ],
+        "en_construccion": true
       }
     ]
   }
