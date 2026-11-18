@@ -142,43 +142,6 @@
      "texto": "Imaginá tres formas de llegar a un lugar que no conocés. Con un GPS que te dice cada giro, llegás, pero si se corta la señal quedás perdido. Con alguien que te muestra el mapa y te pregunta por dónde irías, llegás y además aprendés el camino. Con un mapa en blanco y un \"arreglate\", quizás llegues, o quizás no. Los tres estilos funcionan un poco así."
     },
     {
-     "t": "clasificar",
-     "consigna": "🗣️ ¿Quién lo diría? Estas frases son inventadas: las podría decir quien capitanea un equipo de e-sports. Arrastrá cada una al estilo que le corresponde.",
-     "categorias": [
-      "Autoritario",
-      "Democrático",
-      "Liberal"
-     ],
-     "items": [
-      {
-       "texto": "Esta fecha juegan los que yo diga. No hay nada que discutir.",
-       "cat": "Autoritario"
-      },
-      {
-       "texto": "Si no siguen mi estrategia al pie de la letra, quedan afuera.",
-       "cat": "Autoritario"
-      },
-      {
-       "texto": "Traje dos estrategias. Votemos cuál usamos y les explico por qué propongo cada una.",
-       "cat": "Democrático"
-      },
-      {
-       "texto": "Antes de decidir quién juega, quiero escuchar qué piensa cada uno.",
-       "cat": "Democrático"
-      },
-      {
-       "texto": "Entrenen cuando quieran. Ustedes saben lo que hacen.",
-       "cat": "Liberal"
-      },
-      {
-       "texto": "La estrategia arréglenla entre ustedes. Yo no me meto.",
-       "cat": "Liberal"
-      }
-     ],
-     "pista": "Fijate quién toma la decisión en cada frase. Si no te acordás, volvé a la fila Quién decide de las fichas.",
-     "explicacion": "En el estilo autoritario decide quien lidera, sin consultar. En el democrático, el grupo participa y quien lidera explica sus propuestas. En el liberal, quien lidera no interviene y cada persona hace lo que le parece."
-    },
-    {
      "t": "dato",
      "titulo": "Un estudio con sus límites",
      "texto": "El estudio de Lewin se hizo con grupos chicos de chicos, no con empresas. Por eso no dice que un estilo sea siempre el mejor. Lo que dejó es una idea que se sigue usando: **la manera de liderar cambia lo que hace el grupo**. En la parte 2 vas a ver un modelo más reciente, que propone elegir el estilo según cada persona y cada tarea."
