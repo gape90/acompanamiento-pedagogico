@@ -1690,7 +1690,10 @@ html.vis-baja .modal.juego.jg-antes .ad-pie{min-height:30px;padding-bottom:6px}
 @media (prefers-reduced-motion:reduce){.hi-retrato{transition:none}}
 .simulador .sm-resumen{margin:12px 0 0;padding:12px 14px;border-radius:12px;background:#fff;border:1px solid #E4DDF2;line-height:1.5}
 
+
 /* Sitio acompanamiento-pedagogico: botón a la página de inicio */
-.cabecera a.volver.a-inicio{display:inline-flex;align-items:center;gap:7px;background:#fff;color:#173c60;font-weight:800;box-shadow:0 4px 12px rgba(23,60,96,.25)}
-.cabecera a.volver.a-inicio:hover,.cabecera a.volver.a-inicio:focus-visible{background:#173c60;color:#fff}
-.cabecera a.volver.a-inicio svg{width:18px;height:18px;flex:none}
+.barra-inicio{background:#E4E4EA;padding:8px 22px;display:flex;justify-content:flex-start}
+.barra-inicio .a-inicio{display:inline-flex;align-items:center;gap:7px;background:#fff;color:#173c60;text-decoration:none;font-weight:800;font-size:.9rem;padding:7px 14px;border-radius:999px;box-shadow:0 2px 6px rgba(23,60,96,.15);transition:background .15s,color .15s}
+.barra-inicio .a-inicio:hover,.barra-inicio .a-inicio:focus-visible{background:#173c60;color:#fff;outline:none}
+.barra-inicio .a-inicio svg{width:18px;height:18px;flex:none}
+@media (prefers-reduced-motion:reduce){.barra-inicio .a-inicio{transition:none}}
