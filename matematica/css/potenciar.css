@@ -1328,3 +1328,8 @@ html.vis-baja .modal.juego.nuevo.jg-vf .jg-pie{padding-top:6px;margin-top:4px}
 .modal-fondo .modal.juego.nuevo.jg-palabra .jg-cuerpo{justify-content:flex-start}
 .modal-fondo .modal.juego.nuevo.jg-palabra .jg-cuerpo>:first-child{margin-top:auto}
 .modal-fondo .modal.juego.nuevo.jg-palabra .jg-cuerpo>:last-child{margin-bottom:auto}
+
+/* Sitio acompanamiento-pedagogico: botón a la página de inicio */
+.cabecera a.volver.a-inicio{display:inline-flex;align-items:center;gap:7px;background:#fff;color:#173c60;font-weight:800;box-shadow:0 4px 12px rgba(23,60,96,.25)}
+.cabecera a.volver.a-inicio:hover,.cabecera a.volver.a-inicio:focus-visible{background:#173c60;color:#fff}
+.cabecera a.volver.a-inicio svg{width:18px;height:18px;flex:none}

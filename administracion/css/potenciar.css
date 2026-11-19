@@ -1872,3 +1872,8 @@ html.vis-baja .modal.juego.jg-antes .ad-pie{min-height:30px;padding-bottom:6px}
 @media (max-width:520px){.au-fila{flex-wrap:wrap}.au-barra{order:3;flex-basis:100%}}
 @media (prefers-reduced-motion: reduce){.au.sonando .au-play{animation:none}.au-barra i{transition:none}}
 .esc-panel .au-fila{flex-wrap:wrap}.esc-panel .au-barra{order:3;flex-basis:100%}.au-ic{font-size:.8em}
+
+/* Sitio acompanamiento-pedagogico: botón a la página de inicio */
+.cabecera a.volver.a-inicio{display:inline-flex;align-items:center;gap:7px;background:#fff;color:#173c60;font-weight:800;box-shadow:0 4px 12px rgba(23,60,96,.25)}
+.cabecera a.volver.a-inicio:hover,.cabecera a.volver.a-inicio:focus-visible{background:#173c60;color:#fff}
+.cabecera a.volver.a-inicio svg{width:18px;height:18px;flex:none}

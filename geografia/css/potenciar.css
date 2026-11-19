@@ -1338,3 +1338,8 @@ html.vis-baja .modal.juego.jg-antes .ad-pie{min-height:30px;padding-bottom:6px}
 .info-nota{font-size:.85rem;color:var(--tinta-suave);margin:12px 0 0}
 @media (prefers-reduced-motion: reduce){.info-item{opacity:1;transform:none}.infografia.animar .info-item{animation:none}}
 @media (max-width:480px){.info-grid{grid-template-columns:repeat(2,1fr);gap:10px}.info-num{font-size:1.75rem}.info-item{padding:12px 8px}}
+
+/* Sitio acompanamiento-pedagogico: botón a la página de inicio */
+.cabecera a.volver.a-inicio{display:inline-flex;align-items:center;gap:7px;background:#fff;color:#173c60;font-weight:800;box-shadow:0 4px 12px rgba(23,60,96,.25)}
+.cabecera a.volver.a-inicio:hover,.cabecera a.volver.a-inicio:focus-visible{background:#173c60;color:#fff}
+.cabecera a.volver.a-inicio svg{width:18px;height:18px;flex:none}

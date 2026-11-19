@@ -130,7 +130,7 @@ export function cabecera({ volver } = {}) {
   const v = volver ? `<a class="volver" href="${volver.href}">← ${esc(volver.texto)}</a>` : '';
   return `<header class="cabecera">
     <div class="marca"><span class="titulo-app">Acompañamiento Pedagógico<small class="sub-app">Mesas de exámenes de febrero</small></span></div>
-    <div class="derecha">${v}<a class="volver" href="../index.html">Volver a Página de Inicio</a></div>
+    <div class="derecha">${v}<a class="volver a-inicio" href="../index.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-7 9 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 10v10h4v-6h4v6h4V10" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/></svg>Volver a Página de Inicio</a></div>
   </header>`;
 }
 

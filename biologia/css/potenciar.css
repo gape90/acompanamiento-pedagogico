@@ -1689,3 +1689,8 @@ html.vis-baja .modal.juego.jg-antes .ad-pie{min-height:30px;padding-bottom:6px}
 }
 @media (prefers-reduced-motion:reduce){.hi-retrato{transition:none}}
 .simulador .sm-resumen{margin:12px 0 0;padding:12px 14px;border-radius:12px;background:#fff;border:1px solid #E4DDF2;line-height:1.5}
+
+/* Sitio acompanamiento-pedagogico: botón a la página de inicio */
+.cabecera a.volver.a-inicio{display:inline-flex;align-items:center;gap:7px;background:#fff;color:#173c60;font-weight:800;box-shadow:0 4px 12px rgba(23,60,96,.25)}
+.cabecera a.volver.a-inicio:hover,.cabecera a.volver.a-inicio:focus-visible{background:#173c60;color:#fff}
+.cabecera a.volver.a-inicio svg{width:18px;height:18px;flex:none}
