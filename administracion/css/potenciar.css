@@ -1854,3 +1854,21 @@ html.vis-baja .modal.juego.jg-antes .ad-pie{min-height:30px;padding-bottom:6px}
 .ex-sala.atenuada{opacity:.4;filter:grayscale(.7)}
 .ex-sala.elegida{opacity:1;filter:none;box-shadow:0 0 0 4px color-mix(in srgb,var(--c) 30%,transparent);position:relative}
 .ex-sala.elegida::after{content:"Tu elección";position:absolute;top:-12px;right:12px;background:var(--c);color:#fff;font-size:.75rem;font-weight:800;padding:3px 10px;border-radius:99px}
+
+/* reproductor de audio */
+.au{background:var(--lavanda);border-radius:14px;padding:10px 12px;margin:6px 0 10px}
+.au-fila{display:flex;align-items:center;gap:10px}
+.au-play{display:inline-flex;align-items:center;gap:8px;border:0;border-radius:99px;background:var(--grad);color:#fff;font-weight:800;padding:9px 16px;cursor:pointer;flex:0 0 auto}
+.au-ic{display:inline-block;width:1em;text-align:center}
+.au-barra{flex:1;height:8px;border-radius:99px;background:#fff;overflow:hidden;min-width:40px}
+.au-barra i{display:block;height:100%;width:0;background:var(--sf-magenta);border-radius:99px;transition:width .25s linear}
+.au-lento{border:2px solid var(--sf-violeta);background:#fff;color:var(--sf-violeta);font-weight:800;font-size:.8rem;border-radius:99px;padding:5px 10px;cursor:pointer;flex:0 0 auto}
+.au-lento[aria-pressed="true"]{background:var(--sf-violeta);color:#fff}
+.au.sonando .au-play{animation:au-pulso 1.4s ease-in-out infinite}
+@keyframes au-pulso{50%{box-shadow:0 0 0 6px rgba(184,58,122,.18)}}
+.au-trans{margin-top:8px;font-size:.88rem;color:var(--tinta)}
+.au-trans p{margin:4px 0}
+.esc-intro{margin:8px 0 4px;max-width:640px}
+@media (max-width:520px){.au-fila{flex-wrap:wrap}.au-barra{order:3;flex-basis:100%}}
+@media (prefers-reduced-motion: reduce){.au.sonando .au-play{animation:none}.au-barra i{transition:none}}
+.esc-panel .au-fila{flex-wrap:wrap}.esc-panel .au-barra{order:3;flex-basis:100%}.au-ic{font-size:.8em}

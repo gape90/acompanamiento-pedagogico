@@ -125,27 +125,60 @@ export function bPerillas(w, b, resuelto, marcar) {
   return true;
 }
 
+/* ------------------------------------------------------------------ reproductor de audio */
+// Botón para escuchar, barra de avance, opción "más lento" y transcripción. Nunca arranca solo,
+// salvo el cierre, que suena justo después de un toque del estudiante.
+let sonando = null;
+function reproductor(a, etiqueta = 'Escuchá') {
+  const id = 'au' + Math.random().toString(36).slice(2, 8);
+  const tr = (a.transcripcion || []).map(l => `<p><b>${esc(l.quien)}:</b> ${md(l.texto)}</p>`).join('');
+  return `<div class="au" data-au="${id}"><audio preload="none" src="${esc(a.src)}"></audio>
+    <div class="au-fila"><button type="button" class="au-play" aria-label="${esc(etiqueta)}"><span class="au-ic">▶</span><span class="au-tx">${esc(etiqueta)}</span></button>
+      <div class="au-barra" aria-hidden="true"><i></i></div>
+      <button type="button" class="au-lento" aria-pressed="false" title="Escuchar más lento">🐢 Más lento</button></div>
+    ${tr ? `<div class="au-trans">${tr}</div>` : ''}</div>`;
+}
+function activarAudios(raiz) {
+  raiz.querySelectorAll('.au:not([data-listo])').forEach(box => {
+    box.dataset.listo = '1';
+    const au = box.querySelector('audio'), bt = box.querySelector('.au-play'), barra = box.querySelector('.au-barra i'), lento = box.querySelector('.au-lento');
+    const txt0 = bt.querySelector('.au-tx').textContent;
+    const pintar = () => { const on = !au.paused; box.classList.toggle('sonando', on); bt.querySelector('.au-ic').textContent = on ? '❚❚' : '▶'; bt.querySelector('.au-tx').textContent = on ? 'Pausar' : txt0; };
+    bt.onclick = () => { if (au.paused) { if (sonando && sonando !== au) sonando.pause(); sonando = au; au.play().catch(() => {}); } else au.pause(); };
+    lento.onclick = () => { const on = lento.getAttribute('aria-pressed') !== 'true'; lento.setAttribute('aria-pressed', on); au.playbackRate = on ? 0.8 : 1; };
+    au.addEventListener('play', () => { au.playbackRate = lento.getAttribute('aria-pressed') === 'true' ? 0.8 : 1; pintar(); });
+    au.addEventListener('pause', pintar); au.addEventListener('ended', () => { pintar(); barra.style.width = '100%'; });
+    au.addEventListener('timeupdate', () => { if (au.duration) barra.style.width = (au.currentTime / au.duration * 100) + '%'; });
+  });
+}
+const tocarAudio = box => box?.querySelector('.au-play')?.click();
+
 /* ------------------------------------------------------------------ escena */
 export function bEscena(w, b, resuelto, marcar) {
-  w.innerHTML = caja('escena', '🔍 Explorá la escena', b, resuelto, `<div class="esc-cols"><div class="esc-lienzo" role="group" aria-label="${esc(b.alt || '')}"><p class="ayuda" style="padding:14px">Cargando la ilustración…</p></div>
+  w.innerHTML = caja('escena', '🔍 Explorá la escena', b, resuelto, `${b.aviso ? `<p class="conv-aviso">${esc(b.aviso)}</p>` : ''}${b.audio_inicio ? `<div class="esc-intro">${reproductor(b.audio_inicio, 'Escuchá la bienvenida')}</div>` : ''}<div class="esc-cols"><div class="esc-lienzo" role="group" aria-label="${esc(b.alt || '')}"><p class="ayuda" style="padding:14px">Cargando la ilustración…</p></div>
     <div class="esc-panel" aria-live="polite"></div></div>`);
   const raiz = w.firstElementChild, lienzo = raiz.querySelector('.esc-lienzo'), panel = raiz.querySelector('.esc-panel');
+  activarAudios(raiz);
+  const cuerpoPista = p => p.audio ? reproductor({ src: p.audio, transcripcion: p.transcripcion }, 'Escuchar') : `<p>${md(p.texto)}</p>`;
   const hallado = new Set(); const marcas = {};
   const contador = () => `<div class="esc-cont"><b>${hallado.size} de ${b.pistas.length}</b> pistas ubicadas</div>`;
   const reposo = () => { panel.innerHTML = `${contador()}<p class="ayuda">Tocá una lupa de la ilustración para ver qué encontraste.</p>`; };
   const abrir = i => {
     const p = b.pistas[i];
     Object.values(marcas).forEach(m => m.classList.remove('sel')); marcas[i].classList.add('sel');
-    if (hallado.has(i)) { panel.innerHTML = `${contador()}<div class="esc-pista"><p>${md(p.texto)}</p><div class="fb ok"><b>${esc(p.cat)}.</b> ${md(p.explicacion)}</div></div>`; return; }
-    panel.innerHTML = `${contador()}<div class="esc-pista entra"><p>${md(p.texto)}</p><p class="ayuda">¿En qué nivel de la cultura la ubicás?</p>
+    if (hallado.has(i)) { panel.innerHTML = `${contador()}<div class="esc-pista">${cuerpoPista(p)}<div class="fb ok"><b>${esc(p.cat)}.</b> ${md(p.explicacion)}</div></div>`; activarAudios(panel); return; }
+    panel.innerHTML = `${contador()}<div class="esc-pista entra">${cuerpoPista(p)}<p class="ayuda">¿En qué nivel de la cultura la ubicás?</p>
       <div class="esc-cats">${b.categorias.map(c => `<button type="button" class="esc-cat">${esc(c)}</button>`).join('')}</div><div class="fbz"></div></div>`;
+    activarAudios(panel); if (p.audio) tocarAudio(panel.querySelector('.au'));
     panel.querySelectorAll('.esc-cat').forEach(x => x.onclick = () => {
       const fb = panel.querySelector('.fbz');
       if (x.textContent !== p.cat) { x.classList.add('no'); fb.innerHTML = `<div class="fb mal">${md(p.pista)}</div>`; return; }
       hallado.add(i); marcas[i].classList.add('ok');
       const todas = hallado.size === b.pistas.length;
-      panel.innerHTML = `${contador()}<div class="esc-pista"><p>${md(p.texto)}</p><div class="fb ok"><b>¡Bien! ${esc(p.cat)}.</b> ${md(p.explicacion)}</div>
-        ${todas ? `<div class="fb ok"><b>¡Encontraste todas!</b> ${md(b.cierre || '')}</div>` : '<p class="ayuda">Buscá otra lupa en la ilustración.</p>'}</div>`;
+      if (sonando) sonando.pause();
+      panel.innerHTML = `${contador()}<div class="esc-pista"><div class="fb ok"><b>¡Bien! ${esc(p.cat)}.</b> ${md(p.explicacion)}</div>
+        ${todas ? `<div class="fb ok"><b>¡Encontraste todas!</b> ${md(b.cierre || '')}</div>${b.audio_cierre ? reproductor(b.audio_cierre, 'Escuchá a Abril') : ''}` : '<p class="ayuda">Buscá otra lupa en la ilustración.</p>'}</div>`;
+      activarAudios(panel); if (todas && b.audio_cierre) tocarAudio(panel.querySelector('.au'));
       if (todas && !raiz.classList.contains('resuelto')) { raiz.classList.add('resuelto'); marcar(); }
     });
   };

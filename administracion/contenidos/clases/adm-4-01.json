@@ -784,7 +784,30 @@
     {
      "t": "escena",
      "svg": "img/clases/adm-4-01-escena.svg",
-     "consigna": "Tocá cada lupa de la ilustración. Leé la pista y elegí en qué nivel de la cultura la ubicás.",
+     "consigna": "Abril, del equipo de e-sports, le muestra el club a Nacho, que recién llega. Escuchá la bienvenida. Después tocá cada lupa, escuchá lo que te cuentan y elegí en qué nivel de la cultura va.",
+     "aviso": "Personajes y situación inventados. Voces generadas para esta clase.",
+     "audio_inicio": {
+      "src": "audio/adm-4-01-audio-0-bienvenida.mp3",
+      "transcripcion": [
+       {
+        "quien": "Abril",
+        "texto": "¡Hola! Vos sos Nacho, ¿no? Bienvenido al equipo del club. Te muestro cómo es todo esto. Mirá lo que quieras y te cuento."
+       },
+       {
+        "quien": "Nacho",
+        "texto": "Bueno, gracias."
+       }
+      ]
+     },
+     "audio_cierre": {
+      "src": "audio/adm-4-01-audio-7-cierre.mp3",
+      "transcripcion": [
+       {
+        "quien": "Abril",
+        "texto": "Bueno, ya viste el club. Lo demás lo vas a ir aprendiendo solo, mirando cómo hacemos las cosas."
+       }
+      ]
+     },
      "alt": "Sala de un club de e-sports con seis lupas para tocar: el cartel de valores, el reglamento en el corcho, el saludo con los puños, las camisetas iguales, una jugadora que cuenta algo en la mesa y una integrante que ayuda a un chico nuevo.",
      "categorias": [
       "Lo que se ve",
@@ -796,14 +819,28 @@
       {
        "x": 368,
        "y": 228,
+       "audio": "audio/adm-4-01-audio-1-cartel.mp3",
+       "transcripcion": [
+        {
+         "quien": "Abril",
+         "texto": "Ese cartel lo colgó la comisión cuando se armó el equipo. Dice: \"Respetamos a los rivales, ganemos o perdamos\". Lo leemos antes de cada torneo."
+        }
+       ],
        "cat": "Lo que se dice",
        "texto": "Un cartel en la pared dice: \"Respetamos a los rivales, ganemos o perdamos\".",
        "explicacion": "Es un valor declarado: lo que el club afirma que le importa.",
-       "pista": "Es algo que el club escribió y colgó. Buscá el nivel de lo que se afirma."
+       "pista": "Es algo que el club escribió y colgó en la pared. Buscá el nivel de lo que se afirma."
       },
       {
        "x": 466,
        "y": 392,
+       "audio": "audio/adm-4-01-audio-2-reglamento.mp3",
+       "transcripcion": [
+        {
+         "quien": "Abril",
+         "texto": "En el corcho está el reglamento del equipo. Fijate en el artículo 3: las decisiones importantes se votan."
+        }
+       ],
        "cat": "Lo que se dice",
        "texto": "El reglamento, en el corcho, dice que las decisiones importantes se votan.",
        "explicacion": "Un reglamento es un valor declarado. Para saber si se cumple, hay que mirar qué hace el equipo.",
@@ -812,6 +849,13 @@
       {
        "x": 262,
        "y": 412,
+       "audio": "audio/adm-4-01-audio-3-punos.mp3",
+       "transcripcion": [
+        {
+         "quien": "Benja",
+         "texto": "¡Antes de cada partida chocamos los puños, siempre! Si no lo hacemos, no arrancamos."
+        }
+       ],
        "cat": "Lo que se ve",
        "texto": "Antes de cada partida, chocan los puños.",
        "explicacion": "Es un ritual: una conducta que se ve a simple vista.",
@@ -820,6 +864,13 @@
       {
        "x": 120,
        "y": 600,
+       "audio": "audio/adm-4-01-audio-4-camisetas.mp3",
+       "transcripcion": [
+        {
+         "quien": "Abril",
+         "texto": "Vas a ver que todos usamos la misma camiseta, bordó con la franja blanca. El día que te toque jugar, te damos la tuya."
+        }
+       ],
        "cat": "Lo que se ve",
        "texto": "Todo el equipo usa la misma camiseta, bordó con una franja blanca.",
        "explicacion": "La camiseta es un artefacto: cualquiera que entra lo nota.",
@@ -828,6 +879,13 @@
       {
        "x": 760,
        "y": 470,
+       "audio": "audio/adm-4-01-audio-5-revision.mp3",
+       "transcripcion": [
+        {
+         "quien": "Luz",
+         "texto": "En la última partida me adelanté y perdimos la ronda. Lo conté en la revisión, como hacemos todos. Acá nadie te reta por equivocarte, y a nadie se le ocurre esconderlo."
+        }
+       ],
        "cat": "Lo que se da por hecho",
        "texto": "En la revisión, cada jugador cuenta sus errores. Nadie lo pidió nunca, pero a nadie se le ocurre ocultarlos.",
        "explicacion": "Lo que se ve es la conducta; lo que la explica es una creencia que nadie discute: acá equivocarse no es motivo de vergüenza.",
@@ -836,10 +894,17 @@
       {
        "x": 1330,
        "y": 640,
+       "audio": "audio/adm-4-01-audio-6-ayuda.mp3",
+       "transcripcion": [
+        {
+         "quien": "Abril",
+         "texto": "Y si no sabés algo, preguntale a cualquiera. No está escrito en ningún lado, pero acá es así: el que llega siempre tiene a alguien al lado."
+        }
+       ],
        "cat": "Lo que se da por hecho",
        "texto": "Cuando llega alguien nuevo, cualquiera se acerca a ayudarlo. No figura en ningún reglamento: en este club es lo normal.",
        "explicacion": "Es un supuesto básico: todos creen que ayudar a quien llega es lo natural, sin que nadie lo diga.",
-       "pista": "Fijate en la frase \"es lo normal\": es algo que todos dan por hecho."
+       "pista": "Fijate en lo que dice Abril: \"no está escrito en ningún lado, pero acá es así\"."
       }
      ],
      "cierre": "Ubicaste las seis pistas. La camiseta y el saludo se ven; el cartel y el reglamento se dicen; y la confianza para contar errores y la ayuda a quien llega se dan por hecho."

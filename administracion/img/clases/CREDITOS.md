@@ -10,3 +10,9 @@ En esta materia no se usan fotos ni láminas de terceros. Las ilustraciones .web
 | Clase 1, parte 2 | adm-4-01-nivel1..4.webp dentro de adm-4-01-niveles.svg; adm-4-01-caso-*.webp | Ilustraciones elaboradas para esta clase. |
 | Clase 1, parte 3 | adm-4-01-iceberg.webp dentro de adm-4-01-iceberg.svg | Ilustración elaborada para esta clase, a partir de los tres niveles de la cultura que propuso Edgar Schein. |
 | Clase 1, parte 3 | adm-4-01-escena.webp dentro de adm-4-01-escena.svg, adm-4-01-org-*.webp | (actividades, sin epígrafe) |
+
+## Audios
+
+| Clase y parte | Archivos | Origen | Texto en pantalla |
+|---|---|---|---|
+| Clase 1, parte 3 | audio/adm-4-01-audio-0 a 7 (.mp3) | Voces generadas por Gabi con un gestor de voces, sobre un guion escrito para la clase | Personajes y situación inventados. Voces generadas para esta clase. |
