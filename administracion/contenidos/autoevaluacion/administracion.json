@@ -1,4 +1,92 @@
 {
  "espacio": "administracion",
- "pares": {}
+ "pares": {},
+ "individual": {
+  "a1": [
+   {
+    "tipo": "mc",
+    "pregunta": "¿Qué relación hay entre la manera de liderar y la cultura de un equipo?",
+    "opciones": [
+     "Lo que hace quien lidera se repite y se vuelve costumbre",
+     "La cultura depende solo del reglamento que firma quien lidera",
+     "La manera de liderar cambia el cargo, pero no la cultura",
+     "La cultura se decide en una reunión y queda fija para siempre"
+    ],
+    "correcta": 0,
+    "explicacion": "El equipo aprende sobre todo de lo que ve hacer a quien lidera. Lo que se repite pasa a ser lo normal y, con el tiempo, se da por hecho."
+   },
+   {
+    "tipo": "mc",
+    "pregunta": "En el estudio de Lewin, el grupo democrático seguía trabajando sin quien coordinaba. ¿Con qué idea de la parte 3 se relaciona?",
+    "opciones": [
+     "El grupo tenía un cartel que le recordaba qué tenía que hacer",
+     "Quien coordinaba les había dejado un reglamento escrito",
+     "El grupo usaba uniformes, y eso lo obligaba a trabajar",
+     "Trabajar así ya era algo que el grupo daba por hecho"
+    ],
+    "correcta": 3,
+    "explicacion": "Las decisiones se habían tomado entre todos: trabajar así ya era una costumbre compartida, no una orden que dependía de alguien mirando."
+   },
+   {
+    "tipo": "mc",
+    "pregunta": "¿Con qué estilo del liderazgo situacional se parece más el estilo autoritario de Lewin?",
+    "opciones": [
+     "Entrenar, porque explica y alienta al mismo tiempo",
+     "Dirigir, porque da mucha dirección y poco apoyo",
+     "Apoyar, porque escucha mucho y da poca dirección",
+     "Delegar, porque deja la tarea en manos del equipo"
+    ],
+    "correcta": 1,
+    "explicacion": "Los dos dan muchas indicaciones y poco apoyo. La diferencia es que en el liderazgo situacional dirigir se usa con quien recién empieza la tarea, y no con todo el equipo siempre."
+   },
+   {
+    "tipo": "vf",
+    "texto": "Delegar es lo mismo que el estilo liberal de Lewin.",
+    "respuesta": false,
+    "explicacion": "Delegar se elige para quien domina la tarea y tiene confianza. En el estilo liberal, quien lidera no interviene con nadie, sin importar qué necesita cada persona."
+   },
+   {
+    "tipo": "mc",
+    "pregunta": "Un club cuelga el cartel \"Acá todos opinan\", pero la capitana decide todo sin consultar. ¿Qué es lo más probable que aprenda el equipo?",
+    "opciones": [
+     "Que el cartel y la capitana dicen exactamente lo mismo",
+     "Que opinar sirve, porque así lo dice el cartel del club",
+     "Que opinar no sirve, porque eso es lo que ve que pasa",
+     "Que la capitana tiene que cambiar el texto del cartel"
+    ],
+    "correcta": 2,
+    "explicacion": "El cartel es un valor declarado; la conducta de la capitana es lo que se ve. Cuando no coinciden, el equipo copia lo que ve hacer."
+   },
+   {
+    "tipo": "mc",
+    "pregunta": "¿Qué tienen en común el liderazgo y el sentido de pertenencia?",
+    "opciones": [
+     "Los dos dependen del cargo que tiene cada persona en el club",
+     "Los dos se logran colgando carteles con los valores del club",
+     "Los dos tienen que ver con que las personas quieran ser parte",
+     "Los dos se miden con la cantidad de partidas que gana el equipo"
+    ],
+    "correcta": 2,
+    "explicacion": "Liderar es lograr que las personas quieran ir hacia el objetivo común, y el sentido de pertenencia aparece cuando sienten que la organización también es suya."
+   },
+   {
+    "tipo": "mc",
+    "pregunta": "¿Por qué tener un cargo no alcanza para cambiar la cultura de un equipo?",
+    "opciones": [
+     "Porque el cargo no permite tomar decisiones en una organización",
+     "Porque las culturas no pueden cambiar una vez que se formaron",
+     "Porque solo el equipo completo puede tener un cargo en el club",
+     "Porque la cultura cambia cuando otra conducta se repite"
+    ],
+    "correcta": 3,
+    "explicacion": "Con el cargo se puede dar una orden, pero la cultura se aprende viviéndola: hace falta actuar distinto y sostenerlo hasta que se vuelva lo normal."
+   },
+   {
+    "tipo": "vf",
+    "texto": "Quien lidera puede usar estilos distintos con una misma persona, según la tarea.",
+    "respuesta": true,
+    "explicacion": "El nivel de desarrollo depende de la tarea: se puede delegar una y dirigir otra con la misma persona."
+   }
+  ]
+ }
 }

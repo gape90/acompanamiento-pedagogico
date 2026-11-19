@@ -42,10 +42,10 @@
   "a1": {
    "instruccion": "Explicá qué es el liderazgo y cómo se relaciona con la cultura de una organización. Contá la diferencia entre autoridad y liderazgo, los estilos de liderazgo que estudiaste y los tres niveles de la cultura, con ejemplos de una organización inventada.",
    "guia": [
-    "¿En qué se diferencian la autoridad y el liderazgo?",
-    "¿Cómo son los estilos autoritario, democrático y liberal, y qué observó el estudio de Lewin?",
-    "¿Qué propone el liderazgo situacional y cómo se elige el estilo que conviene?",
-    "¿Cuáles son los tres niveles de la cultura organizacional? Dá un ejemplo de cada uno.",
+    "¿En qué se diferencian la autoridad y el liderazgo? Dá un ejemplo de cada una.",
+    "¿Cómo son los estilos autoritario, democrático y liberal? ¿Qué pasaba en cada grupo del estudio de Lewin cuando quien coordinaba salía de la sala?",
+    "¿Qué propone el liderazgo situacional? ¿Qué dos cosas se miran para elegir entre dirigir, entrenar, apoyar y delegar?",
+    "¿Cuáles son los tres niveles de la cultura organizacional? Dá un ejemplo de cada uno en tu organización inventada.",
     "¿Qué tiene que ver quien lidera con la cultura y con el sentido de pertenencia?"
    ],
    "claves": [],
@@ -104,28 +104,28 @@
    "contenido": "a1",
    "nivel": "Básica",
    "pregunta": "¿En qué se diferencian la autoridad y el liderazgo? Dá un ejemplo.",
-   "orientacion": "La autoridad viene del cargo: es el derecho a tomar ciertas decisiones. El liderazgo es la capacidad de influir para que las personas quieran trabajar por un objetivo común. Se puede tener una sin la otra."
+   "orientacion": "La autoridad viene del cargo: es el derecho a tomar ciertas decisiones. El liderazgo es la capacidad de influir para que las personas quieran trabajar por un objetivo común. Se puede tener una sin la otra: una capitana puede armar la lista por su cargo, y un compañero sin cargo puede lograr que el equipo lo escuche."
   },
   {
    "id": "q-a1-2",
    "contenido": "a1",
    "nivel": "Media",
-   "pregunta": "¿Cómo son los estilos autoritario, democrático y liberal? ¿Qué observó el estudio de Lewin?",
-   "orientacion": "En el autoritario decide quien lidera sin consultar; en el democrático, el grupo participa; en el liberal, quien lidera casi no interviene. El grupo autoritario producía mientras el líder estaba presente, el democrático fue el más valorado y el liberal, el que menos produjo."
+   "pregunta": "¿Cómo son los estilos autoritario, democrático y liberal? ¿Qué pasó en el estudio de Lewin cuando quien coordinaba salía de la sala?",
+   "orientacion": "En el autoritario, quien coordina decide sin consultar; en el democrático, el grupo participa y quien coordina orienta; en el liberal, casi no interviene. El grupo autoritario producía mientras lo miraban y, cuando quien coordinaba salía, el trabajo caía. El democrático seguía trabajando. El liberal fue el que menos produjo."
   },
   {
    "id": "q-a1-3",
    "contenido": "a1",
    "nivel": "Media",
-   "pregunta": "Según el liderazgo situacional, ¿qué estilo conviene con una persona que ya aprendió algo de la tarea pero se desanima? ¿Por qué?",
-   "orientacion": "Entrenar: mucha dirección y mucho apoyo. Todavía necesita indicaciones, porque no domina la tarea, y también aliento, porque se desanimó."
+   "pregunta": "Según el liderazgo situacional, ¿qué estilo conviene con una persona que sabe hacer la tarea pero duda de sí? ¿Por qué?",
+   "orientacion": "Apoyar: poca dirección y mucho apoyo. Ya sabe hacer la tarea, así que más instrucciones no la ayudan; lo que le falta es confianza, y eso se trabaja escuchándola y animándola."
   },
   {
    "id": "q-a1-4",
    "contenido": "a1",
-   "nivel": "Alta",
-   "pregunta": "¿Por qué un cartel con valores no alcanza para cambiar la cultura de un equipo?",
-   "orientacion": "El cartel es un valor declarado, un solo nivel de la cultura. El equipo aprende de lo que ve hacer, sobre todo a quien lidera. Para cambiar una costumbre hay que actuar distinto y repetirlo hasta que se dé por hecho."
+   "nivel": "Integradora",
+   "pregunta": "¿Por qué un cartel con valores no alcanza para cambiar la cultura de un equipo? ¿Qué tiene que ver quien lidera?",
+   "orientacion": "El cartel es un valor declarado, un solo nivel de la cultura. El equipo aprende de lo que ve hacer, sobre todo a quien lidera. Para cambiar una costumbre, quien lidera tiene que actuar distinto y sostenerlo hasta que se dé por hecho. Cuando lo que se dice y lo que se hace coinciden, crece el sentido de pertenencia."
   }
  ]
 }

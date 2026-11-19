@@ -44,13 +44,13 @@ clases.forEach(({ c, clase }, i) => {
 
 const tpAbierto = todoCompleto || AJUSTES.TP_LIBRE;
 // Autoevaluación general: cuando hay más de una clase, repasa todos los contenidos juntos y relacionados
-if (clases.length >= 2) {
+if (clases.length >= 1) {
   const abierta = todoCompleto || AJUSTES.TP_LIBRE;
   const mejor = e.repaso?.[e.espacio];
   html += `<div class="paso-rec repaso ${abierta ? '' : 'bloqueado'}">
     <div class="num">✅</div>
     <div><h3>Autoevaluación general</h3>
-    <p>${abierta ? 'Repasá todos tus temas juntos, con preguntas que los relacionan entre sí. La podés hacer todas las veces que quieras.' : 'Se habilita cuando termines todas las clases de arriba.'}${mejor ? ` Tu mejor resultado: ${mejor.bien} de ${mejor.total}.` : ''}</p></div>
+    <p>${abierta ? (clases.length === 1 ? 'Repasá toda la clase junta, con preguntas que relacionan sus partes entre sí. La podés hacer todas las veces que quieras.' : 'Repasá todos tus temas juntos, con preguntas que los relacionan entre sí. La podés hacer todas las veces que quieras.') : 'Se habilita cuando termines todas las clases de arriba.'}${mejor ? ` Tu mejor resultado: ${mejor.bien} de ${mejor.total}.` : ''}</p></div>
     ${abierta ? `<a class="btn" href="repaso.html?e=${e.espacio}">${mejor ? 'Volver a hacerla' : 'Empezar'}</a>` : '<span class="ayuda">🔒</span>'}
   </div>`;
 }
