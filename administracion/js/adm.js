@@ -126,7 +126,7 @@ export function bPerillas(w, b, resuelto, marcar) {
 }
 
 /* ------------------------------------------------------------------ reproductor de audio */
-// Botón para escuchar, barra de avance, opción "más lento" y transcripción. Nunca arranca solo,
+// Botón para escuchar, barra de avance y transcripción. Nunca arranca solo,
 // salvo el cierre, que suena justo después de un toque del estudiante.
 let sonando = null;
 function reproductor(a, etiqueta = 'Escuchá') {
@@ -134,19 +134,17 @@ function reproductor(a, etiqueta = 'Escuchá') {
   const tr = (a.transcripcion || []).map(l => `<p><b>${esc(l.quien)}:</b> ${md(l.texto)}</p>`).join('');
   return `<div class="au" data-au="${id}"><audio preload="none" src="${esc(a.src)}"></audio>
     <div class="au-fila"><button type="button" class="au-play" aria-label="${esc(etiqueta)}"><span class="au-ic">▶</span><span class="au-tx">${esc(etiqueta)}</span></button>
-      <div class="au-barra" aria-hidden="true"><i></i></div>
-      <button type="button" class="au-lento" aria-pressed="false" title="Escuchar más lento">🐢 Más lento</button></div>
+      <div class="au-barra" aria-hidden="true"><i></i></div></div>
     ${tr ? `<div class="au-trans">${tr}</div>` : ''}</div>`;
 }
 function activarAudios(raiz) {
   raiz.querySelectorAll('.au:not([data-listo])').forEach(box => {
     box.dataset.listo = '1';
-    const au = box.querySelector('audio'), bt = box.querySelector('.au-play'), barra = box.querySelector('.au-barra i'), lento = box.querySelector('.au-lento');
+    const au = box.querySelector('audio'), bt = box.querySelector('.au-play'), barra = box.querySelector('.au-barra i');
     const txt0 = bt.querySelector('.au-tx').textContent;
     const pintar = () => { const on = !au.paused; box.classList.toggle('sonando', on); bt.querySelector('.au-ic').textContent = on ? '❚❚' : '▶'; bt.querySelector('.au-tx').textContent = on ? 'Pausar' : txt0; };
     bt.onclick = () => { if (au.paused) { if (sonando && sonando !== au) sonando.pause(); sonando = au; au.play().catch(() => {}); } else au.pause(); };
-    lento.onclick = () => { const on = lento.getAttribute('aria-pressed') !== 'true'; lento.setAttribute('aria-pressed', on); au.playbackRate = on ? 0.8 : 1; };
-    au.addEventListener('play', () => { au.playbackRate = lento.getAttribute('aria-pressed') === 'true' ? 0.8 : 1; pintar(); });
+    au.addEventListener('play', pintar);
     au.addEventListener('pause', pintar); au.addEventListener('ended', () => { pintar(); barra.style.width = '100%'; });
     au.addEventListener('timeupdate', () => { if (au.duration) barra.style.width = (au.currentTime / au.duration * 100) + '%'; });
   });
